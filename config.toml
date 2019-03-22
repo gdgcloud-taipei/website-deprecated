@@ -1,0 +1,172 @@
+baseurl = "http://taipei.gcpug.tw/"
+title = "GCPUG Taipei"
+theme = "hugo-universal-theme"
+languageCode = "en"
+hasCJKLanguage = true
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "zh-tw"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Code highlight
+pygmentsUseClasses = false
+pygmentCodeFences = true
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "首頁"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "文章"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "活動"
+    identifier = "活動_"
+    weight = 3
+
+[[menu.main]]
+    parent="活動_"
+    name = "活動列表"
+    url  = "/activity/"
+    weight = 1
+
+[[menu.main]]
+    parent="活動_"
+    name = "Meetup"
+    url  = "/tags/meetup"
+    weight = 2
+
+[[menu.main]]
+    parent="活動_"
+    name = "文章投稿"
+    url  = "/authors/"
+    weight = 3
+
+[[menu.main]]
+    parent="活動_"
+    name = "工商服務"
+    url  = "/jobs/"
+    weight = 3    
+
+[[menu.main]]
+    name = "連絡我們"
+    url  = "/contact/"
+    weight = 4
+# Top bar social links menu
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "Cage Chung"
+    defaultKeywords = ["GPCUG","GCP"]
+    defaultDescription = "GCPUG Taipei"
+    # Browser title description
+    description = "GCPUG Taipei"
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+    # Baidu统计
+    baiduKey=""
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "blue"
+    # Social share buttons
+    share = false
+
+    # 404 page
+    errorimage = "/img/404.png"
+    email = "cage.chung@gmail.com"
+    about_us = "<p>我們是 Google Cloud Platform User Group (Taipei)。在 Google 雲端服務在台灣地區展露頭角之後，有許多新的服務、新的知識、新的創意，歡迎大家一起分享，一起了解 Google 雲端服務"
+    copyright = "Copyright ©️ 2019, GCPUG Taipei all rights reserved."
+    icpno = ""
+    # Format dates with Go's time formatting
+    date_format = "2006年1月2日"
+    logo = "/img/logo.png"
+    # avatar used for thumbnail on sharing
+    avatar = "/img/gcpug-avatar.png"
+    logosmall = "/img/logo-small.png"
+    address = """<p>請至 Facebook 搜尋 GCPUG.TW 或是掃描下面的 QR code，加入社團</p><p><img src="https://storage.googleapis.com/gcs.gcpug.tw/website/gcpugtaipei_fb_group_128.png"></p>
+      """
+
+[Permalinks]
+    #blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = """<p>社群入口➡</p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # Set carousel background image
+    background = "/img/carousel-bg.jpg"
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = false
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "公告"
+    subtitle = ""
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-pagelines"
+    title = "一同參與"
+    subtitle = "加入 GCPUG Taipei"
+    link_url = "/contact"
+    link_text = "更多資訊"
+
+[params.clients]
+    enable = true
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "贊助商"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "最新文章"
+    subtitle = "社群參與者的部落格與最 in 的新聞都在這裡"
+
+[outputs]
+    home = ["HTML", "RSS", "Algolia"]
+
+[outputFormats.Algolia]
+    baseName = "algolia"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
+
+[params.algolia]
+    enable = true
+    appid = "PG7ILTRF3G"
+    index = "gcpugtaipei"
+    vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+    params = ["categories", "tags"]
+    key = "f2c110c994b43739b3873e676f452bbc"
+

@@ -1,0 +1,72 @@
+<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    <img src="{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
+                    <img src="{{ .Site.Params.logosmall }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
+                    <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">{{ i18n "navToggle" }}</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            <!--/.navbar-header -->
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  {{ range .Site.Menus.main }}
+                  <li class="dropdown">
+                    {{ if .HasChildren }}
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      {{ range .Children }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                      {{ end }}
+                    </ul>
+                    {{ else }}
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end  }}
+                  </li>
+                  {{ end }}
+                  {{ if .Site.Params.algolia.enable }}
+                    <li>
+                        <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
+                        <span class="hidden-sm hidden-md hidden-lg">{{ i18n "modalSearchButton"}}</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
+                    </a>
+                    </li>
+                  {{ end }}
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+    </div>
+    <!-- /#navbar -->
+
+</div>
+
+<!-- *** NAVBAR END ***-->
+
+<!-- Search Modal -->
+<div id="modalSearch" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{ i18n "modalSearchTitle"}}</h4>
+      </div>
+      <div class="modal-body">
+          {{ partial "search.html" . }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{ i18n "modalSearchCloseButton" }}</button>
+      </div>
+    </div>
+  </div>
+</div>

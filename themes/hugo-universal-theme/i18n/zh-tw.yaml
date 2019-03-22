@@ -1,0 +1,110 @@
+- id: home
+  translation: "首面"
+
+- id: templateBy
+  translation: "模板來自於"
+
+- id: portedBy
+  translation: "移植到 Hugo 來自"
+
+- id: contactGoTo
+  translation: "轉跳到聯絡頁面"
+
+- id: contactAddrTitle
+  translation: "地址"
+
+- id: contactTitle
+  translation: "聯絡我們"
+
+- id: contactForm
+  translation: "聯絡表單"
+
+- id: contactName
+  translation: "你的名字"
+
+- id: contactMail
+  translation: "你的 Email"
+
+- id: contactMessage
+  translation: "你的訊息"
+
+- id: contactSend
+  translation: "發送訊息"
+
+- id: navHome
+  translation: "跳到首頁"
+
+- id: navToggle
+  translation: "切換選單"
+
+- id: categoriesTitle
+  translation: "分類"
+
+- id: searchTitle
+  translation: "搜尋"
+
+- id: tagsTitle
+  translation: "標籤"
+
+- id: continueReading
+  translation: "繼續閱讀"
+
+- id: readMore
+  translation: "閱讀更多"
+
+- id: authorBy
+  translation: "作者"
+
+- id: recentPosts
+  translation: "最新部落格"
+
+- id: aboutUs
+  translation: "關於我們"
+
+- id: newer
+  translation: "更新"
+
+- id: older
+  translation: "更舊"
+
+- id: publishedOn
+  translation: "發表於"
+
+- id: archivedIn
+  translation: "歸檔於"
+
+- id: words
+  translation: "字"
+
+- id: readInAbout
+  translation: "閱讀大約需要"
+
+- id: minute
+  translation: "分鐘"
+
+- id: translator
+  translation: "譯者"
+
+- id: previousPost
+  translation: "更舊"
+
+- id: nextPost
+  translation: "更新"
+
+- id: reviewer
+  translation: "審稿者"
+
+- id: originallink
+  translation: "查看原文"
+
+- id: modalSearchTitle
+  translation: "部落格文章搜尋"
+
+- id: modalSearchButton
+  translation: "搜尋"
+
+- id: modalSearchCloseButton
+  translation: "關閉"
+
+- id: modalSearchPlaceHolder
+  translation: "輸入文章標題或摘要"
