@@ -79,7 +79,7 @@ steps:
       git push origin master
     volumes:
     - name: 'ssh'
-      path: /root/.ssh      
+      path: /root/.ssh
 
 secrets:
   - kmsKeyName: projects/gcp-taiwan/locations/global/keyRings/gcpugtaipei-website/cryptoKeys/algolia
