@@ -59,7 +59,7 @@ steps:
     args:
     - '-c'
     - |
-      cd public
+      cd /workspace/public
       git add .
       git config --global user.email "cage.chung@gmail.com"
       git config --global user.name "Kai-Chu Chung"
