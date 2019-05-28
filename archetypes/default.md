@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-banner: "https://ws1.sinaimg.cn/large/00704eQkgy1frk001fkixj30rs0ku4qp.jpg"
+banner: "https://storage.googleapis.com/gcs.gcpug.tw/website/gcpug-taipei-default-banner.jpg"
 author: "N/A"
 authorlink: ""
 translator: "N/A"

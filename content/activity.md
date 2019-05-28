@@ -10,6 +10,33 @@ keywords: ["gcppug taipei","meetup"]
 
 **簡報下载地址**：N/A
 
+## GCPUG Taipei Meetup #46 Cloud Next 19 Extended
+
+**時間**: 2019年4月24日
+
+**地點**: 三創
+
+**講師與 Topic**：
+
+- Google Next 19’ Keynote Recap (@Cage)
+- TPU Edge / AutoML (@吉弘)
+- Cloud Run 實戰 (@Richard)
+- 輕鬆談 Google Next ‘19 (@小明)
+- Tea time / Social Network
+- Next ’19 中的容器大小事 (@Topper)
+- 只要會SQL就能做Machine Learning？ - BigQuery ML (@東東 Aaron)
+
+**簡報下载地址**：
+
+- [Google Cloud Next '19 Recap - GCPUG Taipei 20190424 - Google Slides](https://docs.google.com/presentation/d/1EpfBgsBZLgpRg_6MkwaDDwP9E5L5n5F6CM-2kBSN6OQ/edit#slide=id.g40859ec867_1_231)
+- [Google TPU Edge SBC_190424](https://www.slideshare.net/NissinAllelujahnissin/google-tpu-edge-sbc190424)
+- [2019424-GCPUG-NEXT19-New Containerized Services Introduction](https://www.slideshare.net/TopperChi/2019424gcpugnext19new-containerized-services-introduction?fbclid=IwAR1YYwywrwgv_msRP4ig3jYurMJHuBxdaOqrXiGmu2tGzyjToVcgBFZLBUU)
+- [20190424 只要會SQL就能做Machine Learning？ BigQuery ML簡介](https://www.slideshare.net/TungLinLee/20190424-sqlmachine-learning-bigquery-ml)
+
+[查看 GCPUG Taipei Meetup #46 Cloud Next 19 Extended 回顧](/blog/gcpug-taipei-meetup-46-cloud-next-19-extended/)
+
+---
+
 ## GCPUG Taipei Meetup #45
 
 **時間**: 2019年3月20日
@@ -29,6 +56,8 @@ _使用 Keras, Tensorflow 進行分散式訓練初探_
 - [jiankaiwang/distributed_training: This repository is a tutorial targeting how to train a deep neural network model in a higher efficient way. In this repository, we focus on two main frameworks that are Keras and Tensorflow.](https://github.com/jiankaiwang/distributed_training)
 
 [查看 GCPUG Taipei Meetup-45 回顧](/blog/gcpug-taipei-meetup-45/)
+
+---
 
 ## GCPUG Taipei Meetup #44
 

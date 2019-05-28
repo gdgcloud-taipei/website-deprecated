@@ -11,7 +11,7 @@ reviewer: ["Cage Chung"]
 reviewerlink: ["https://kaichu.io"]
 originallink: ""
 summary: "從 google cloud log 看雲端資料搜集與應用，帶大家從入門到進階，讓你在雲端管理你的資料！ / 從設計架構到實現方式，帶大家進入高效模型訓練。"
-tags: ["gcpug taipei", "gcp", "google cloud logs", "ai", "tensorflow", "keras"]
+tags: ["gcpug taipei", "gcp", "google cloud logs", "ai", "tensorflow", "keras", "meetup"]
 categories: ["meetup"]
 keywords: ["gcpug taipei", "gcp", "google cloud logs", "ai", "tensorflow", "keras"]
 ---
