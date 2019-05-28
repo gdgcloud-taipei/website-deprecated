@@ -20,6 +20,7 @@ steps:
     - '-c'
     - |
       chmod 600 /root/.ssh/id_rsa
+      ssh-add -K /root/.ssh./id_rsa
       cat <<EOF >/root/.ssh/config
       Hostname github.com
       IdentityFile /root/.ssh/id_rsa
@@ -60,9 +61,11 @@ steps:
     - '-c'
     - |
       cd /workspace/public
+      git config --global user.email "cage.chung@gmail.com"
+      git config --global user.name "Kai-Chu Chung"
       git add .
-      git commit -m "auto build by $PROJECT_ID"
-      git push origin master
+      git commit -m "auto build by $PROJECT_ID cloud build"
+      git push origin -f master
     volumes:
     - name: 'ssh'
       path: /root/.ssh      
