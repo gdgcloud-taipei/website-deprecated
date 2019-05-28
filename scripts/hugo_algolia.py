@@ -17,7 +17,7 @@ def get_admin_key():
 
 # fill them
 APPLICATION_ID = 'PG7ILTRF3G'
-SEARCH_ONLY_API_KEY = 'f2c110c994b43739b3873e676f452bbc'
+SEARCH_ONLY_API_KEY = 'SEARCH_ONLY_API_KEY'
 INDEX_NAME = 'gcpugtaipei'
 
 ADMIN_API_KEY = get_admin_key()
@@ -35,9 +35,9 @@ def get_all_objectID(index_name):
     all_objectID = [row.get('objectID') for row in res]
     return all_objectID
 
-def update_index_of_mysite():
+def update_index_of_mysite(filename):
     # your json filename
-    filename = '../public/algolia.json'
+    # filename = '../public/algolia.json'
     rows = json.load(open(filename))
     print('update algolia index')
 
@@ -58,16 +58,16 @@ def update_index_of_mysite():
     index.set_settings({'highlightPreTag': '<em class="ais-Highlight">', 'highlightPostTag': '</em>'})
     return {'delete': len(ids_to_delete), 'save': len(rows)}
 
-def main():
-    res = update_index_of_mysite()
+def main(argv):
+    res = update_index_of_mysite(argv[0])
     print(res)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])
 
 # pip install algoliasearch
-# python hugo_algolia.py ALGOLIA_API_KEY="ADMIN_API_KEY"
+# python hugo_algolia.py ../public/algolia.json ALGOLIA_API_KEY="ADMIN_API_KEY"
 
 # https://jeremyyin.com
 # jeremyyin2012@gmail.com

@@ -1,21 +1,14 @@
-#!/bin/sh
+#!/bin/bash
 # Analysis the blogs
-
-# orig_json="../public/algolia.json"
-# formated_json="../public/blog_list.json"
-# translators="../content/translators.md"
-# authors="../content/authors.md"
-
-orig_json=${ORIG_JSON}
-formated_json=${FORMATED_JSON}
-translators=${TRANSLATORS}
-authors=${AUTHORS}
+orig_json="../public/algolia.json"
+formated_json="../public/blog_list.json"
+translators="../content/translators.md"
+authors="../content/authors.md"
 
 if [ ! -f $orig_json ];then
     echo "The file $orig_json doesn't exist, please run hugo to generate it."
     exit 0
 fi
-
 cat $orig_json|jq .|cat>$formated_json
 echo '''
 ---
@@ -43,4 +36,4 @@ echo -e "| 作者 | 文章數 |\n| ---- | ---- |" >> $authors
 cat $formated_json|grep author|grep -v "authorlink"|sort|cut -d ":" -f2|tr -d ","'"'|uniq -c|sort -nr|awk '$2 { print "|" $2 " | " $1 "|"}' >> $authors
 echo -e "\n投遞原創文章請訪問 N/A" >> $authors
 
-rm ${ORIG_JSON}
+rm $orig_json

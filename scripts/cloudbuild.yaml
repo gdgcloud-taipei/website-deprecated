@@ -1,0 +1,10 @@
+steps:
+  - id: build analyse
+    name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/gcpugtaipei-webiste-analyse', '-f', 'analyse.Dockerfile', '.']
+
+  - id: build aloglia
+    name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/gcpugtaipei-webiste-algolia', '-f', 'Dockerfile', '.']
+
+images: ['gcr.io/$PROJECT_ID/gcpugtaipei-webiste-analyse', 'gcr.io/$PROJECT_ID/gcpugtaipei-webiste-algolia']    

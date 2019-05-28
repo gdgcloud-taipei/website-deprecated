@@ -1,0 +1,75 @@
+steps:
+  - id: Decrypt the file containing the key
+    name: 'gcr.io/cloud-builders/gcloud'
+    args:
+    - kms
+    - decrypt
+    - --ciphertext-file=gcpugtaipei.github.io.enc
+    - --plaintext-file=/root/.ssh/id_rsa
+    - --location=global
+    - --keyring=gcpugtaipei-website
+    - --key=gcpugtaipei-github-io-key
+    volumes:
+    - name: 'ssh'
+      path: /root/.ssh
+
+  - id: Set up git with key and domain
+    name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'bash'
+    args:
+    - '-c'
+    - |
+      chmod 600 /root/.ssh/id_rsa
+      cat <<EOF >/root/.ssh/config
+      Hostname github.com
+      IdentityFile /root/.ssh/id_rsa
+      EOF
+      mv known_hosts /root/.ssh/known_hosts
+    volumes:
+    - name: 'ssh'
+      path: /root/.ssh
+
+  - id: build gcpugtaipei-website
+    name: monachus/hugo:v0.53
+    args: ['hugo']
+
+  - id: make sure taipei.gcpug.tw CNAME
+    name: gcr.io/cloud-builders/docker
+    args: ['run', 'busybox', 'printf', 'taipei.gcpug.tw > public/CNAME']
+
+  - id: update alogolia
+    name: gcr.io/gcp-taiwan/gcpugtaipei-webiste-algolia
+    secretEnv: ['ALGOLIA_API_KEY']
+
+  - id: analyse
+    name: gcr.io/gcp-taiwan/gcpugtaipei-webiste-analyse
+    env:
+      - ORIG_JSON=/workspace/public/algolia.json 
+      - FORMATED_JSON=/workspace/public/blog_list.json 
+      - TRANSLATORS=/workspace/content/translators.md 
+      - AUTHORS=/workspace/content/authors.md 
+
+  - id: rebuild gcpugtaipei-website for translators & authors
+    name: monachus/hugo:v0.53
+    args: ['hugo']
+    
+  - id: publish html to gcpugtaipei.github.io
+    name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'bash'
+    args:
+    - '-c'
+    - |
+      cd public
+      git add .
+      git config --global user.email "cage.chung@gmail.com"
+      git config --global user.name "Kai-Chu Chung"
+      git commit -m "auto build by $PROJECT_ID"
+      git push origin master
+    volumes:
+    - name: 'ssh'
+      path: /root/.ssh      
+
+secrets:
+  - kmsKeyName: projects/gcp-taiwan/locations/global/keyRings/gcpugtaipei-website/cryptoKeys/algolia
+    secretEnv:
+      ALGOLIA_API_KEY: CiQA/CYDdLHaT/FIQILfDcWZKOEM0PVQKwGvWjGJXLfl2ACuV28SSQCSMDfK3kIi2cykcXd0d1crP0Bu5V+PVmRG2tGWkdwF0Xgks8DLzS+dLx7/EHYSG2m4vZxjGDUh6QRtYojiB/Huu0a4nV8v+uE=

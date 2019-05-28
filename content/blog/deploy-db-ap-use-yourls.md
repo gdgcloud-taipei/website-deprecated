@@ -23,7 +23,6 @@ keywords: ["mysql", "kubernetes", "database", "GKE"]
 ```shell
 gcloud compute disks create --size=20GB mysql-disk
 ```
-  
 
 然後，透過mysql.yaml來設定mysql與相關掛載的設定...
 

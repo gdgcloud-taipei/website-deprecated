@@ -10,7 +10,7 @@ translatorlink: ""
 reviewer: ["Cage Chung"]
 reviewerlink: ["https://kaichu.io"]
 originallink: ""
-summary: "這裡填寫文章文章摘要。"
+summary: "這裡填寫文章摘要"
 tags: ["gcpug taipei"]
 categories: ["gcp"]
 keywords: ["gcpug taipei", "gcp"]
