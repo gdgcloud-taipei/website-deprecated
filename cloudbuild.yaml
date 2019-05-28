@@ -30,6 +30,17 @@ steps:
     - name: 'ssh'
       path: /root/.ssh
 
+  - id: clone gcpugtaipei.github.io
+    name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'bash'
+    args:
+    - '-c'
+    - |
+      git clone git@github.com:gcpug-tw/gcpugtaipei.github.io.git public
+    volumes:
+    - name: 'ssh'
+      path: /root/.ssh      
+
   - id: build gcpugtaipei-website
     name: monachus/hugo:v0.53
     args: ['hugo']
@@ -65,7 +76,7 @@ steps:
       git config --global user.name "Kai-Chu Chung"
       git add .
       git commit -m "auto build by $PROJECT_ID cloud build"
-      git push origin -f master
+      git push origin master
     volumes:
     - name: 'ssh'
       path: /root/.ssh      

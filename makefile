@@ -1,8 +1,12 @@
 run:
-	docker run -d --name gcpugtaipei --rm -ti -v `pwd`:`pwd` -w `pwd` -p 1313:1313 monachus/hugo:v0.53
+	docker run -d --name gcpugtaipei --rm -ti -v $(PWD):/src -p 1313:1313 klakegg/hugo:0.53 server -D
+
+# ex: make new gcpug taipei meetup 47 -> /src/content/blog/gcpug-taipei-meetup-47.md created
+args=`arg="$(filter-out $@,$(MAKECMDGOALS))" && echo $${arg:-${1}}`
+new:
+	docker exec gcpugtaipei hugo new content/blog/$(shell docker run -it --rm vandot/casbab kebab "$(call args,defaultstring)").md
 
 build:
-	# rm -rf public 	
 	docker exec -it gcpugtaipei hugo
 	printf 'taipei.gcpug.tw' > public/CNAME	
 
@@ -24,3 +28,6 @@ cloudbuild-local:
 prepare-algolia-api-key:
 	# prepare cloudbuild.yaml ALGOLIA_API_KEY base64 string
 	echo -n $ALGOLIA_API_KEY | gcloud kms encrypt --location global --keyring gcpugtaipei-website --key algolia --plaintext-file=- --ciphertext-file=- | base64
+
+deploy-key:
+	gcloud kms encrypt --plaintext-file=/Users/cage/.ssh/id_rsa --ciphertext-file=./gcpugtaipei.github.io.enc --location=global --keyring gcpugtaipei-website --key gcpugtaipei-github-io-key
