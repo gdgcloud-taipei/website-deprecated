@@ -61,10 +61,8 @@ steps:
     - |
       cd /workspace/public
       git add .
-      git config --global user.email "cage.chung@gmail.com"
-      git config --global user.name "Kai-Chu Chung"
       git commit -m "auto build by $PROJECT_ID"
-      git push origin -f master
+      git push origin master
     volumes:
     - name: 'ssh'
       path: /root/.ssh      
