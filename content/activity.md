@@ -32,6 +32,7 @@ keywords: ["gcppug taipei","meetup"]
 - [Google TPU Edge SBC_190424](https://www.slideshare.net/NissinAllelujahnissin/google-tpu-edge-sbc190424)
 - [2019424-GCPUG-NEXT19-New Containerized Services Introduction](https://www.slideshare.net/TopperChi/2019424gcpugnext19new-containerized-services-introduction?fbclid=IwAR1YYwywrwgv_msRP4ig3jYurMJHuBxdaOqrXiGmu2tGzyjToVcgBFZLBUU)
 - [20190424 只要會SQL就能做Machine Learning？ BigQuery ML簡介](https://www.slideshare.net/TungLinLee/20190424-sqlmachine-learning-bigquery-ml)
+- [20190424 GCPUG 輕鬆談 Next'19](https://www.slideshare.net/cytseng999/20190424-gcpug-next19)
 
 [查看 GCPUG Taipei Meetup #46 Cloud Next 19 Extended 回顧](/blog/gcpug-taipei-meetup-46-cloud-next-19-extended/)
 

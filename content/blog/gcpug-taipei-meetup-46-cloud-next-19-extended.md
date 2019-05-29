@@ -36,12 +36,13 @@ GCPUG Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' �
 ### TPU Edge / AutoML Vision (@吉弘)
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/LE47PU8UUWa9b6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NissinAllelujahnissin/google-tpu-edge-sbc190424" title="Google TPU Edge SBC_190424" target="_blank">Google TPU Edge SBC_190424</a> </strong> from <strong><a href="https://www.slideshare.net/NissinAllelujahnissin" target="_blank">CAVEDU Education</a></strong> </div>
 
-### Next ’19 中的容器大小事 (@Topper)
+### 輕鬆談 Google Next ‘19 (@小明)
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/bY9o6e7IZaUZX" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cytseng999/20190424-gcpug-next19" title="20190424 GCPUG 輕鬆談 Next&#x27;19" target="_blank">20190424 GCPUG 輕鬆談 Next&#x27;19</a> </strong> from <strong><a href="//www.slideshare.net/cytseng999" target="_blank">祺元 曾</a></strong> </div>
 
+### Next ’19 中的容器大小事 (@Topper)
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/fByH5k48vnGU8x" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TopperChi/2019424gcpugnext19new-containerized-services-introduction" title="2019424-GCPUG-NEXT19-New Containerized Services Introduction" target="_blank">2019424-GCPUG-NEXT19-New Containerized Services Introduction</a> </strong> from <strong><a href="https://www.slideshare.net/TopperChi" target="_blank">Topper Chi (CHI, HUNG-FU)</a></strong> </div>
 
 ### 只要會SQL就能做Machine Learning？ - BigQuery ML (@東東 Aaron)
-
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/1REbnNEP4FMmHL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TungLinLee/20190424-sqlmachine-learning-bigquery-ml" title="20190424 只要會SQL就能做Machine Learning？ BigQuery ML簡介" target="_blank">20190424 只要會SQL就能做Machine Learning？ BigQuery ML簡介</a> </strong> from <strong><a href="https://www.slideshare.net/TungLinLee" target="_blank">Tung-Lin Lee</a></strong> </div>
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>
