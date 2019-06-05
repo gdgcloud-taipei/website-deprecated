@@ -8,7 +8,28 @@ keywords: ["gcppug taipei","meetup"]
 
 以下是 GCPPUG Taipei  Meetup 的活動頁面索引。
 
-**簡報下载地址**：N/A
+## GCPUG Taipei Meetup #47
+
+**時間**: 2019年6月4日
+
+**地點**: Google Taipei 101 Office 14F
+
+**講師與 Topic**：
+
+- AutoML 的雲與端：手把手教學
+- Google Cloud AI Platform Intro
+
+**簡報下载地址**：
+
+- [201906 AutoML Vision 的雲與端：手把手教學 - Google Slides](https://docs.google.com/presentation/d/19bV2XgcnrpaTVW0Oe7P5SNhPzckWxUyIjQhfUebkLak/edit#slide=id.p)
+- [Gcpug Taipei Meetup #47 Recap · GCPUG Taipei](http://localhost:1313/blog/gcpug-taipei-meetup-47/)
+
+**錄影**:
+
+- [GCPUG Taipei Meetup #47 - Google Cloud AI Platform Intro - YouTube](https://www.youtube.com/watch?v=VfZQL6xI7VI)
+
+
+[查看 GCPUG Taipei Meetup #47 回顧](/blog/gcpug-taipei-meetup-47/)
 
 ## GCPUG Taipei Meetup #46 Cloud Next 19 Extended
 
@@ -74,4 +95,4 @@ _使用 Keras, Tensorflow 進行分散式訓練初探_
 
 [查看 GCPUG Taipei Meetup-44 回顧](/blog/gcpug-taipei-meetup-44/)
 
-錄影: N/A
+**錄影**: N/A
