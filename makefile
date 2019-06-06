@@ -1,10 +1,10 @@
 run:
 	docker run -d --name gcpugtaipei --rm -ti -v $(PWD):/src -p 1313:1313 klakegg/hugo:0.53 server -D
 
-# ex: make new gcpug taipei meetup 47 -> /src/content/blog/gcpug-taipei-meetup-47.md created
+# ex: make new gcpug taipei meetup 47 -> /src/content/blog/gcpug-taipei-meetup-47/index.md created
 args=`arg="$(filter-out $@,$(MAKECMDGOALS))" && echo $${arg:-${1}}`
 new:
-	docker exec gcpugtaipei hugo new content/blog/$(shell docker run -it --rm vandot/casbab kebab "$(call args,defaultstring)").md
+	docker exec gcpugtaipei hugo new --kind post-bundle content/blog/$(shell docker run -it --rm vandot/casbab kebab "$(call args,defaultstring)")
 
 build:
 	docker exec -it gcpugtaipei hugo
