@@ -8,7 +8,7 @@ keywords: ["gcppug taipei","meetup"]
 
 以下是 GCPPUG Taipei  Meetup 的活動頁面索引。
 
-## GCPUG Taipei Meetup #47
+## GDGCloud Taipei Meetup #47
 
 **時間**: 2019年6月4日
 
@@ -22,16 +22,16 @@ keywords: ["gcppug taipei","meetup"]
 **簡報下载地址**：
 
 - [201906 AutoML Vision 的雲與端：手把手教學 - Google Slides](https://docs.google.com/presentation/d/19bV2XgcnrpaTVW0Oe7P5SNhPzckWxUyIjQhfUebkLak/edit#slide=id.p)
-- [Gcpug Taipei Meetup #47 Recap · GCPUG Taipei](http://localhost:1313/blog/gcpug-taipei-meetup-47/)
+- [GDGCloud Taipei Meetup #47 Recap · GDGCloud Taipei](http://localhost:1313/blog/gcpug-taipei-meetup-47/)
 
 **錄影**:
 
-- [GCPUG Taipei Meetup #47 - Google Cloud AI Platform Intro - YouTube](https://www.youtube.com/watch?v=VfZQL6xI7VI)
+- [GDGCloud Taipei Meetup #47 - Google Cloud AI Platform Intro - YouTube](https://www.youtube.com/watch?v=VfZQL6xI7VI)
 
 
-[查看 GCPUG Taipei Meetup #47 回顧](/blog/gcpug-taipei-meetup-47/)
+[查看 GDGCloud Taipei Meetup #47 回顧](/blog/gcpug-taipei-meetup-47/)
 
-## GCPUG Taipei Meetup #46 Cloud Next 19 Extended
+## GDGCloud Taipei Meetup #46 Cloud Next 19 Extended
 
 **時間**: 2019年4月24日
 
@@ -49,17 +49,17 @@ keywords: ["gcppug taipei","meetup"]
 
 **簡報下载地址**：
 
-- [Google Cloud Next '19 Recap - GCPUG Taipei 20190424 - Google Slides](https://docs.google.com/presentation/d/1EpfBgsBZLgpRg_6MkwaDDwP9E5L5n5F6CM-2kBSN6OQ/edit#slide=id.g40859ec867_1_231)
+- [Google Cloud Next '19 Recap - GDGCloud Taipei 20190424 - Google Slides](https://docs.google.com/presentation/d/1EpfBgsBZLgpRg_6MkwaDDwP9E5L5n5F6CM-2kBSN6OQ/edit#slide=id.g40859ec867_1_231)
 - [Google TPU Edge SBC_190424](https://www.slideshare.net/NissinAllelujahnissin/google-tpu-edge-sbc190424)
 - [2019424-GCPUG-NEXT19-New Containerized Services Introduction](https://www.slideshare.net/TopperChi/2019424gcpugnext19new-containerized-services-introduction?fbclid=IwAR1YYwywrwgv_msRP4ig3jYurMJHuBxdaOqrXiGmu2tGzyjToVcgBFZLBUU)
 - [20190424 只要會SQL就能做Machine Learning？ BigQuery ML簡介](https://www.slideshare.net/TungLinLee/20190424-sqlmachine-learning-bigquery-ml)
 - [20190424 GCPUG 輕鬆談 Next'19](https://www.slideshare.net/cytseng999/20190424-gcpug-next19)
 
-[查看 GCPUG Taipei Meetup #46 Cloud Next 19 Extended 回顧](/blog/gcpug-taipei-meetup-46-cloud-next-19-extended/)
+[查看 GDGCloud Taipei Meetup #46 Cloud Next 19 Extended 回顧](/blog/gcpug-taipei-meetup-46-cloud-next-19-extended/)
 
 ---
 
-## GCPUG Taipei Meetup #45
+## GDGCloud Taipei Meetup #45
 
 **時間**: 2019年3月20日
 
@@ -77,11 +77,11 @@ _使用 Keras, Tensorflow 進行分散式訓練初探_
 - [使用 Keras, Tensorflow 進行分散式訓練初探 - Google Slides](https://docs.google.com/presentation/d/1I96h-rzGsVYx4A_hZF_sZbsi47SiRyOiR_Et90uHO4Q/edit#slide=id.p)
 - [jiankaiwang/distributed_training: This repository is a tutorial targeting how to train a deep neural network model in a higher efficient way. In this repository, we focus on two main frameworks that are Keras and Tensorflow.](https://github.com/jiankaiwang/distributed_training)
 
-[查看 GCPUG Taipei Meetup-45 回顧](/blog/gcpug-taipei-meetup-45/)
+[查看 GDGCloud Taipei Meetup-45 回顧](/blog/gcpug-taipei-meetup-45/)
 
 ---
 
-## GCPUG Taipei Meetup #44
+## GDGCloud Taipei Meetup #44
 
 **時間**: 2019年1月9日
 
@@ -93,6 +93,6 @@ _使用 Keras, Tensorflow 進行分散式訓練初探_
 - 當電子發票遇見 Google Cloud Function / Cage Chung
 
 
-[查看 GCPUG Taipei Meetup-44 回顧](/blog/gcpug-taipei-meetup-44/)
+[查看 GDGCloud Taipei Meetup-44 回顧](/blog/gcpug-taipei-meetup-44/)
 
 **錄影**: N/A

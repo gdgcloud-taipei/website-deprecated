@@ -7,7 +7,7 @@ author: "宜禎"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "GCP提供雲端服務平台之相關產品，在計價上，GCP提供Billing檔案的匯出，從GCP web console設定，可匯出至BigQuery、Cloud Storage與PubSub幾個目的儲存體，本次跟大家介紹BigQuery的匯出部分，並藉由BigQuery的查詢呈現您想要的報表。"

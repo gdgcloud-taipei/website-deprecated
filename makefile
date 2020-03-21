@@ -1,14 +1,14 @@
 run:
-	docker run -d --name gcpugtaipei --rm -ti -v $(PWD):/src -p 1313:1313 klakegg/hugo:0.53 server -D
+	docker run -d --name gcpugtaipei --rm -ti -v $(PWD):/src -p 1313:1313 -u hugo klakegg/hugo:0.53 server -w --bind=0.0.0.0
 
-# ex: make new gcpug taipei meetup 47 -> /src/content/blog/gcpug-taipei-meetup-47/index.md created
+# ex: make new GDGCloud Taipei meetup 47 -> /src/content/blog/gcpug-taipei-meetup-47/index.md created
 args=`arg="$(filter-out $@,$(MAKECMDGOALS))" && echo $${arg:-${1}}`
 new:
 	docker exec gcpugtaipei hugo new --kind post-bundle content/blog/$(shell docker run -it --rm vandot/casbab kebab "$(call args,defaultstring)")
 
 build:
 	docker exec -it gcpugtaipei hugo
-	printf 'taipei.gcpug.tw' > public/CNAME	
+	printf 'taipei.gdgcloud.tw' > public/CNAME	
 
 build_and_analyse:
 	docker exec gcpugtaipei hugo && cd scripts && ./analyse.sh

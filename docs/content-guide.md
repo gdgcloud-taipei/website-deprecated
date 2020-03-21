@@ -22,9 +22,9 @@ reviewer: ["Cage Chung"]
 reviewerlink: ["https://kaichu.io"]
 originallink: ""
 summary: "這裡填寫文章摘要(這兒為可以搜尋到的文字)"
-tags: ["gcpug taipei"]
+tags: ["GDGCloud Taipei"]
 categories: ["gcp"]
-keywords: ["gcpug taipei", "gcp"]
+keywords: ["GDGCloud Taipei", "gcp"]
 ---
 
 #### 圖片引用

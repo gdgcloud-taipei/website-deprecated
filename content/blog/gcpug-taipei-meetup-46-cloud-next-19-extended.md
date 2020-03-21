@@ -1,24 +1,24 @@
 ---
-title: "GCPUG Taipei Meetup #46 Cloud Next 19 Extended"
+title: "GDGCloud Taipei Meetup #46 Cloud Next 19 Extended"
 date: 2019-05-28T05:20:10Z
 draft: false
 banner: "https://lh3.googleusercontent.com/CwqGi80yu9LjzWhvsVo-PLJ-HtqHqpkUw0SNYlaTqJCoYFSQJx-M8Iyh4qxHthJT_LgKkA13EN9gbjZuUcMwyJ2HepYL2ELrEyXDqKIBJUgMNndo8YiPTqNZmF9mHgQzb7a2gQ_LRXq09Q_w20_BvqjZncgj52H6_5MTdIcKNldtuSpkCzsnXcZC0THZ8xLEmPOgTlOJs1wGVssMPitFwoPN53FgY_oHaWJWOoNmjsSI8UY2CBWrIKO9ewCVgcbZAMZnzZ9F17zhk2W_7i_EiKSjGzMK1vaIPZYh-B8bmVOvlDwtIPip00H-4pzOGYCskt1BjB-SFGcJBnBUd-wxKnnam9qj-UbG_1tT8wU0kPLXEmSmdYuKO7EBEjgEM3rN4vdsUeRrgnEK9hkm7LadmpJuDRKGUjx5Rnk7P4gSDQcKqt3JNms1lF6WTBJc8eH3aMg-BVfaWJ8d2PmZE0YuPd3uFlIrS411m3dxZZ4sRYS_y-3rLJhK_yVAl5BQYtaZxu4txKTtZma3mnhOKMNGp2BERLLMcVlOxYgn5KIUllhQut6V_MYOsfHzgyi4y9qbK2a6vaeE_SU4uG67D_ELQI0loM_pIzo7kW6egcui3XBlMGm-zYhLslS9mzmDC0jhpsj3F0EV7yhQ3nSsnO5dzRBEkFoXAL3bQ9mx2dutqi36359yOKOCrGUu4tLwNy-gQHqpk3QVinZONKoy72Q2pRtDNQ=w2780-h1564-no"
-author: "Cage"
+author: "Cage Chung"
 authorlink: "https://kaichu.io"
 translator: "N/A"
 translatorlink: ""
 reviewer: ["Cage Chung"]
 reviewerlink: ["https://kaichu.io"]
 originallink: ""
-summary: "今年 [Google Cloud Next ’19 | April 9-11 | San Francisco](https://cloud.withgoogle.com/next/sf/) 在加州舊金山舉辦，詳細的活動內容可以察查官方的活動頁面。GCPUG Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' 的朋友來跟我們回顧一些 Next 19' 的發表跟經驗分享"
-tags: ["gcpug taipei", "meetup"]
+summary: "今年 [Google Cloud Next ’19 | April 9-11 | San Francisco](https://cloud.withgoogle.com/next/sf/) 在加州舊金山舉辦，詳細的活動內容可以察查官方的活動頁面。GDGCloud Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' 的朋友來跟我們回顧一些 Next 19' 的發表跟經驗分享"
+tags: ["GDGCloud Taipei", "meetup"]
 categories: ["meetup"]
-keywords: ["gcpug taipei", "gcp", "next", "Cloud Run", "TPU", "Edge", "AutoML", "BigQuery", "ML"]
+keywords: ["GDGCloud Taipei", "gcp", "next", "Cloud Run", "TPU", "Edge", "AutoML", "BigQuery", "ML"]
 ---
 
 今年 [Google Cloud Next ’19 | April 9-11 | San Francisco](https://cloud.withgoogle.com/next/sf/) 在加州舊金山舉辦，詳細的活動內容可以察查官方的活動頁面。
 
-GCPUG Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' 的朋友來跟我們回顧一些 Next 19' 的發表跟經驗分享
+GDGCloud Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' 的朋友來跟我們回顧一些 Next 19' 的發表跟經驗分享
 
 講師與 Topic
 
@@ -49,7 +49,7 @@ GCPUG Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' �
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>
 <div class="pa-embed-player" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/jdEF1kMXHKPvHUC3A"
-  data-title="GCPUG Taipei Meetup #46 - Google Cloud Next 19 Extended"
+  data-title="GDGCloud Taipei Meetup #46 - Google Cloud Next 19 Extended"
   data-description="49 new photos added to shared album">
   <img data-src="https://lh3.googleusercontent.com/KnzKV-2b5K7Qm-vfFbnw7rz8Yvic5NKYxlOXcGRWpD6FvoS4Ne8Ipwt35zjX8rFKDzZgK0tgMGUakmiawtgoCER_OEgw3jtMu0hzGGewmHe98X1MNALESnNy7i8z3a7yIB9DdXQ8EEM=w1080-h720" src="" alt="" />
   <img data-src="https://lh3.googleusercontent.com/tNhy6Vzmws_Xr2s7Sg-mpgpu6JwZVZjxW5aW1T0X47DqqckpeiBdAZb3MOzuL2cEY31w7AT1X8N52QzXJA9QCTATIgwU0qIShxLh0F-kLMCg0_eRbOGYeV-LDLwbZgMvVwZZjIdbwLg=w1080-h720" src="" alt="" />

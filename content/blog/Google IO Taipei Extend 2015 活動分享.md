@@ -3,11 +3,11 @@ title: "Google IO Taipei Extend 2015 活動分享"
 date: 2015-06-08T00:46:00-07:00
 draft: false
 banner: "https://3.bp.blogspot.com/-2v_4u7dFGDw/VXVF6N5qYkI/AAAAAAAAACU/4l_yuJ_Mo98/s640/P_20150529_010320.jpg"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "感謝本次參加Google I/O Taipei Extend的各位，也感謝各位講者的經驗分享，讓大家獲益良多！GCPUG.TW與GTUG本次可算是迸出Google的火花，希望日後有更多的機會可以合作，也希望大家踴躍分享在Google上的各式各樣使用經驗喔！"

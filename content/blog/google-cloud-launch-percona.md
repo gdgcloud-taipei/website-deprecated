@@ -7,7 +7,7 @@ author: "Simon Su"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "Database一直是每一項服務需要特別花心思的地方，通常將資料庫服務委託給Google CloudSQL是最簡單不過的，不過，如果希望能夠保有對資料庫的完整操控權，則自建Database是最快的選擇... 而Google Cloud Launcher服務即有DB Cluster的建置，在此以Percona Cluster為例，透過Cloud Launcher簡單的建置Percona MySQL Cluster…"

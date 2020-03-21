@@ -7,7 +7,7 @@ author: "Simon Su"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "GCPUG.TW Meetup #7"

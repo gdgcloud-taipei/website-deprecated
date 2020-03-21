@@ -1,6 +1,6 @@
-# GCPUG Taipei
+# GDGCloud Taipei
 
-本網站由 [GCPUG Taipei](http://taipei.gcpug.tw/) 社區成員共同維護，專案程式碼託管於 GitHub。
+本網站由 [GDGCloud Taipei](http://taipei.gdgcloud.tw/) 社區成員共同維護，專案程式碼託管於 GitHub。
 
 ## 使用技術
 

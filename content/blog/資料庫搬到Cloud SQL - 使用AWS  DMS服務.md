@@ -7,7 +7,7 @@ author: "Yi Jhen Hong"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "Google CloudSQL提供高品質的資料服務，但在使用之前，一般大家會問到該怎麼把資料庫搬到CloudSQL的環境，CloudSQL提供透過 Cloud Storage來做 import/export，如果再資料量不是很大的狀況下，直接針對資料庫做 export 然後存放到 Cloud Storage後，再 import 到 CloudSQL 的速度還滿快的... 但是如果需要做到持續同步資料，則我們會需要一些規劃與工具來持續同步您的資料。"

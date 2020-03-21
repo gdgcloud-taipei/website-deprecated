@@ -1,22 +1,22 @@
 ---
-title: "Gcpug Taipei Meetup #47 Recap"
+title: "GDGCloud Taipei Meetup #47 Recap"
 date: 2019-06-05T08:04:34Z
 draft: false
 banner: "https://lh3.googleusercontent.com/5o1trM9t5PrnDdp-cPChccK58y5ezWQM8HCxnbGLlZ1At-QXBxlzMVEjelpBsdhAQgn_eXmxalkG5Km_GrRuloxJ7Sm56tl2VDBoEWvk4Dy5c6WUQKC3_bdN5BOPh5brlzqCOwSPNntybMRp-tVexsfa4RoQJvoLfpZAeC4bFX5K3ID7jtxrQFYn5wJy3-JpL-fai0ayDXNSaMYwe3BYLGzrtPTSLbdJh5GyM6EwQ6pLYDUDNYbtg3I60R_NW60_EckdRl7mVx3-mv60mPC95SYWgtbDOPAbk-NqD6Qut7n_AkwLbaTzzZGSlG1W3dUqMoSnFhegPgepOb_zAPYtyzlGzbqu-z2SKtoH9fenCcAUYL6hieWjVIb2qAMyzpg9Tq7F2TmMvCyuOvi1tI9tGHLWY3ncuGZ3LFVSQfMd_lSYZt3d8Ddk5b9MW7e6NlkM9GzoSO4NvRknKZWLsVpjFzt-Gc6U6EXAEIc6DA-bzl9Oan8fO8UNW_DvpGPkxinx3kA0lgXA2XkQJsITEpzPrE7Pk6BCMGcnF4EnINorVpVmKW29Br9V0pSTp-aDLKPUEPE4smgYRz1VPjf9ULqz1Q6WotWw2mfZY4G2w232NEDyDdrZmKE4QtqfIyco7mn7CX_FWfKVJ2dQ1AdhY5TaDLr5fYuXJfabtIPcvVyCFjs0B9qB_xgPE4fZfzKTfPJy2rlDfImqe2NpeCCJq0c-nobaHw=w1000-no-tmp.jpg"
-author: "Cage"
-authorlink: ""
+author: "Cage Chung"
+authorlink: "https://kaichu.io"
 translator: "N/A"
 translatorlink: ""
 reviewer: ["Cage Chung"]
 reviewerlink: ["https://kaichu.io"]
 originallink: ""
 summary: "Google Next '19 中發表了 AutoML Vision Edge 及 AI Platform. 邀請到 Dennis 來分享 AutoML Vision Edge 試用的過程，包括使用 AutoML Vision 進行訓練的步驟，以及將訓練好的模型部署到一般的裝置及 TPU 上試著推論 (inference) 看看。Brent 來分享 Google Cloud AI Platform 初探，基於 Machine learning workflow 中 AI platform 上對應可以使用的 GCP 服務及策略"
-tags: ["gcpug taipei", "meetup"]
+tags: ["GDGCloud Taipei", "meetup"]
 categories: ["meetup"]
-keywords: ["gcpug taipei", "gcp", "automl", "vision", "ai platform"]
+keywords: ["GDGCloud Taipei", "gcp", "automl", "vision", "ai platform"]
 ---
 
-Meetup 活動頁面: [GCPUG Taipei Meetup #47 | Meetup](https://www.meetup.com/GCPUG-Taipei/events/261729813/)
+Meetup 活動頁面: [GDGCloud Taipei Meetup #47 | Meetup](https://www.meetup.com/GCPUG-Taipei/events/261729813/)
 
 時間: 2019年6月4日
 
@@ -50,7 +50,7 @@ Meetup 活動頁面: [GCPUG Taipei Meetup #47 | Meetup](https://www.meetup.com/G
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>
 <div class="pa-embed-player" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/T6FLTZswrbtgmmzH7"
-  data-title="GCPUG Taipei Meetup #47"
+  data-title="GDGCloud Taipei Meetup #47"
   data-description="49 new photos added to shared album">
   <img data-src="https://lh3.googleusercontent.com/a4VMgav28yGpnX7tXzYqF7cF3wT15hzyYxrZnU2pri7zowWn00-8sTPj86kgDyuFUaSONUqUf_RYEddmsvBNV0HafCpQ6snJaOqSATwdkQ9Sov7k8k7NZxX0W_tT-Kvsx29IVr0vMg=w1920-h1080" src="" alt="" />
   <img data-src="https://lh3.googleusercontent.com/7g7XEEFElayM0nz7QfyJwrwxyRUlxRM-r8ar-JYAGMmyR9woY-wm75oLYOubGRYnNfr7P_OKB_uM5jwaJNLEegsu5hFAF2Ym7vpZvrX0S92Vz0L9fCm-JlpVizaY821EkC-oHPOphg=w1920-h1080" src="" alt="" />

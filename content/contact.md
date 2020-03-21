@@ -17,7 +17,7 @@ GCPUG 透過網際網路串聯喜好 Google Cloud 的使用者，分享與交流
 
 #### GitHub
 
-[https://github.com/gcpug-tw](https://github.com/gcpug-tw)
+[https://github.com/gdgcloud-taipei](https://github.com/gdgcloud-taipei)
 
 #### Twitter
 
@@ -37,12 +37,12 @@ https://www.youtube.com/playlist?list=PLBxDwki2j4mfiXxa8f-Y7yuyY1PFlpFDg
 
 ![Call for spreaker](/img/gcpugtw-call-for-speaker_344.png)
 
-https://is.gd/ReuUIn
+https://bit.ly/2xQjlOG
 
 ---
 
 ## 加入 Github 社群
 
-請聯繫[組織者](mailto:cage.chung@gmail.com)，然後加入到 [GCPUG TW](https://github.com/servicemesher) GitHub 組織中，參與社群後續線上活動。
+請聯繫[組織者](mailto:cage.chung@gmail.com)，然後加入到 [GDGCloud Taipei](https://github.com/gdgcloud-taipei) GitHub 組織中，參與社群後續線上活動。
 
 </center>

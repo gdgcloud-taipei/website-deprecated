@@ -1,10 +1,10 @@
 ---
 title: "工商服務"
-description: "GCPUG Taipie 工商服務"
+description: "GDGCloud Taipei 工商服務"
 keywords: ["gcppug taipei","jobs"]
 ---
 
-# GCPUG Taipie 工商服務
+# GDGCloud Taipei 工商服務
 
 > [GCPUG.TW(Google Cloud Platform User Group Taiwan)](https://www.facebook.com/groups/GCPUG.TW/?ref=bookmarks) 是一個大家交流 Google Cloud Platfrom 相關訊息的 Facebook 社團，大家都不太喜歡看到廣告之類跟 GCP 無關的訊息。所以就另外開立了一個工商服務專屬的頁面
 

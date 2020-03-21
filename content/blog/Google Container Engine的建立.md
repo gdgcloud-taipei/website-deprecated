@@ -3,11 +3,11 @@ title: "Google Container Engine的建立"
 date: 2017-07-12T04:06:00-07:00
 draft: false
 banner: "https://lh4.googleusercontent.com/ZiOOToHQBIFJIcLLdNZL95zYrlESmXXf6DVdgPHXbZqeLFAm5571FmS0q3A9L9sXgWEXgYcJyy2w66wFUZNAgwvPzjLZLVk6q8_X0HMvTD5e3aooAEFE6cPvrkVaieGpbM20nS9O"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "在Google Cloud上使用Container Engine服務來建置Container Cluster是非常方便的事，原因是因為在GKE上，他幫忙我們處理掉了網路的串接、效能管理、對外IP的連線與防火牆的授權等等... GKE是怎麼完成的呢？下面讓我們一步一步的，用比較詳細的流程來看一下每個階段Google做了什麼..."

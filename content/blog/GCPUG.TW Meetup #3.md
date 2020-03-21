@@ -3,11 +3,11 @@ title: "GCPUG.TW Meetup #3"
 date: 2015-10-14T09:27:00-07:00
 draft: false
 banner: "http://3.bp.blogspot.com/-7KKA9Nu1Vx0/Vh6CPOfhJVI/AAAAAAAAAsY/1WqZcf8_bCM/s640/Event_20150604_-_Google_Drive.png"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "GCPUG.TW Meetup #3"

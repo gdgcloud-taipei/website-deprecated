@@ -1,5 +1,5 @@
-baseurl = "http://taipei.gcpug.tw/"
-title = "GCPUG Taipei"
+baseurl = "http://taipei.gdgcloud.tw/"
+title = "GDGCloud Taipdi"
 theme = "hugo-universal-theme"
 languageCode = "en"
 hasCJKLanguage = true
@@ -66,10 +66,10 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "Cage Chung"
-    defaultKeywords = ["GPCUG","GCP"]
-    defaultDescription = "GCPUG Taipei"
+    defaultKeywords = ["GDGCloud","GCP"]
+    defaultDescription = "GDGCloud Taipei"
     # Browser title description
-    description = "GCPUG Taipei"
+    description = "GDGCloud Taipei"
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = ""
     # Baidu统计
@@ -82,8 +82,8 @@ paginate = 10
     # 404 page
     errorimage = "/img/404.png"
     email = "cage.chung@gmail.com"
-    about_us = "<p>我們是 Google Cloud Platform User Group (Taipei)。在 Google 雲端服務在台灣地區展露頭角之後，有許多新的服務、新的知識、新的創意，歡迎大家一起分享，一起了解 Google 雲端服務"
-    copyright = "Copyright ©️ 2019, GCPUG Taipei all rights reserved."
+    about_us = "<p>我們是 GDGCloud Taipei。在 Google 雲端服務在台灣地區展露頭角之後，有許多新的服務、新的知識、新的創意，歡迎大家一起分享，一起了解 Google 雲端服務"
+    copyright = "Copyright ©️ 2020, GDGCloud Taipei all rights reserved."
     icpno = ""
     # Format dates with Go's time formatting
     date_format = "2006年1月2日"
@@ -136,7 +136,7 @@ paginate = 10
     enable = true
     icon = "fa fa-pagelines"
     title = "一同參與"
-    subtitle = "加入 GCPUG Taipei"
+    subtitle = "加入 GDGCloud Taipei"
     link_url = "/contact"
     link_text = "更多資訊"
 
@@ -164,9 +164,9 @@ paginate = 10
 
 [params.algolia]
     enable = true
-    appid = "PG7ILTRF3G"
-    index = "gcpugtaipei"
+    appid = "Q1O7C11OQ6"
+    index = "website"
     vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params = ["categories", "tags"]
-    key = "f2c110c994b43739b3873e676f452bbc"
+    key = "cf1cf71c81051abfc308e8c6a9188870"
 

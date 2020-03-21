@@ -7,13 +7,13 @@ author: "Simon Su"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "Kubernetes由於透過yaml檔描述了所要安裝的系統架構，因此要把一些應用服務透過yaml檔來封裝成線上直接安裝即可使用的應用將不再是夢想，而helm即是提供一個簡單的平台讓我們可以快速地使用第三方服務所提供的腳本，快速啟用您想要用的服務..."
-tags: ["kubernets", "helm", "jenkins"]
-categories: ["kubernets", "COMPUTE"]
-keywords: ["kubernets", "helm", "jenkins"]
+tags: ["kubernetes", "helm", "jenkins"]
+categories: ["kubernetes", "COMPUTE"]
+keywords: ["kubernetes", "helm", "jenkins"]
 ---
 
 Kubernetes由於透過yaml檔描述了所要安裝的系統架構，因此要把一些應用服務透過yaml檔來封裝成線上直接安裝即可使用的應用將不再是夢想，而helm即是提供一個簡單的平台讓我們可以快速地使用第三方服務所提供的腳本，快速啟用您想要用的服務...

@@ -3,11 +3,11 @@ title: "GCPUG at HadoopConf 2015"
 date: 2015-10-14T09:42:00-07:00
 draft: false
 banner: "http://2015.hadoopcon.org/wp/wp-content/uploads/2015/08/15-08-08_HadoopCon_2015.png"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "本次Hadoop Conf 2015的活動上，很榮幸可以跟Kaz san同時間上台分享，這邊特別提供我們當天的投影片，供大家參考"

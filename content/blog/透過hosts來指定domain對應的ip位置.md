@@ -3,17 +3,17 @@ title: "透過hosts來指定domain對應的ip位置"
 date: 2017-08-14T09:21:00-07:00
 draft: false
 banner: ""
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "某些時候，我們會需要透過DNS的方式來對應外部服務的domain name位置，而某些應用中，這些domain name可能在不同的環境會對應到不同的地方，此時，我們在傳統作業方式會透過/etc/hosts的編輯方式來讓該主機可以對應到外部服務位置.... 而在K8S中，從1.7之後的版本開始支援hosts的複寫功能..."
-tags: ["Kubernets", "domain"]
-categories: ["Kubernets"]
-keywords: ["Kubernets", "domain"]
+tags: ["kubernetes", "domain"]
+categories: ["kubernetes"]
+keywords: ["kubernetes", "domain"]
 ---
 
 某些時候，我們會需要透過DNS的方式來對應外部服務的domain name位置，而某些應用中，這些domain name可能在不同的環境會對應到不同的地方，此時，我們在傳統作業方式會透過/etc/hosts的編輯方式來讓該主機可以對應到外部服務位置.... 而在K8S中，從1.7之後的版本開始支援hosts的複寫功能...

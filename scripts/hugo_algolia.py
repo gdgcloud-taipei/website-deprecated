@@ -16,9 +16,9 @@ def get_admin_key():
     return ADMIN_API_KEY
 
 # fill them
-APPLICATION_ID = 'PG7ILTRF3G'
+APPLICATION_ID = 'Q1O7C11OQ6'
 SEARCH_ONLY_API_KEY = 'SEARCH_ONLY_API_KEY'
-INDEX_NAME = 'gcpugtaipei'
+INDEX_NAME = 'website'
 
 ADMIN_API_KEY = get_admin_key()
 

@@ -3,17 +3,17 @@ title: "Hello World! Google Cloud Platform User Group!"
 date: 2015-04-06T08:15:00-07:00
 draft: false
 banner: "http://1.bp.blogspot.com/-UbdLptJ92Yw/VSJ20oHSzbI/AAAAAAAAABk/DnYHFs8NNEk/s1600/GCPUG-TW.png"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: ""
-tags: ["GCPUG TW", "GCPUG Taipei"]
+tags: ["GCPUG TW", "GDGCloud Taipei"]
 categories: ["Meetup"]
-keywords: ["GCPUG TW", "GCPUG Taipei"]
+keywords: ["GCPUG TW", "GDGCloud Taipei"]
 ---
 
 Google Cloud Platform User Group - Taiwan跟大家見面

@@ -3,11 +3,11 @@ title: "weddingcnp via GCP"
 date: 2017-07-30T23:05:00-07:00
 draft: false
 banner: "https://kaichu.io/img/weddingcnp-via-gpc-0_2.png"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "[Cage & Ping wedding](http://weddingcnp.appspot.com/) 是一個我們為結婚喜宴處理朋友出席報名相關事宜特別開發的網站，所有的服務全部建構在 Google Cloud Platform 上"

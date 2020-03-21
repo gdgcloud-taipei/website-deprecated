@@ -45,9 +45,9 @@ steps:
     name: monachus/hugo:v0.53
     args: ['hugo']
 
-  - id: make sure taipei.gcpug.tw CNAME
+  - id: make sure taipei.gdgcloud.tw CNAME
     name: gcr.io/cloud-builders/docker
-    args: ['run', 'busybox', 'printf', 'taipei.gcpug.tw > public/CNAME']
+    args: ['run', 'busybox', 'printf', 'taipei.gdgcloud.tw > public/CNAME']
 
   - id: update alogolia
     name: gcr.io/gcp-taiwan/gcpugtaipei-webiste-algolia

@@ -7,7 +7,7 @@ author: "edwardc"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "GCP 推出 HTTP Load Balancer 也已經一陣子了，其中類似 anycast 的特性讓後端的 backend server 可以跨不同 region 之外，也可以根據流量的來源跑到最適合的 backend group 上。  

@@ -41,7 +41,7 @@
   ` | safeHTML }}
 
   <!-- Favicon and apple touch icons-->
-  <link rel="shortcut icon" href="{{ "/img/favicon.ico" | relURL }}" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ "/img/favicon.png" | relURL }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{ "/img/apple-touch-icon.png" | relURL }}" />
 
   <!-- owl carousel css -->
@@ -58,7 +58,7 @@
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="{{ .Site.Params.avatar }}" />
   <meta property="og:image" content="{{ .Params.banner }}" />
-  <meta property="og:image:alt" content="GCPUG Taipei Logo" />
+  <meta property="og:image:alt" content="GDGCloud Taipei Logo" />
 
   <!-- Twitter card -->
   {{- with .Description | default .Params.summary | default .Summary | default .Site.Params.DefaultDescription }}

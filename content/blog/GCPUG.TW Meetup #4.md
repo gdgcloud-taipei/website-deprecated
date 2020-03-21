@@ -3,11 +3,11 @@ title: "GCPUG.TW Meetup #4"
 date: 2015-10-14T09:31:00-07:00
 draft: false
 banner: "http://4.bp.blogspot.com/-moqWiF7OJWQ/Vh6DXB65lxI/AAAAAAAAAsk/uUk4ooKdceE/s640/9_3_2015_GCPUG_TW_free_talk__kubernetes_by_Ming-der_Wang_on_Prezi.png"
-author: "GCPUG TW"
+author: "GDGCloud Taipei"
 translator: ""
 originallink: ""
 translatorlink: ""
-reviewer:  ["GCPUG.TW"]
+reviewer:  ["GDGCloud Taipei"]
 reviewerlink:  [""]
 authorlink: ""
 summary: "GCPUG.TW Meetup #4"

@@ -14,7 +14,7 @@ echo '''
 ---
 title: "譯者投稿"
 description: "投稿譯者文章數統計"
-keywords: ["gcpug taipei"]
+keywords: ["GDGCloud Taipei"]
 ---
 
 以下是投稿的譯者及譯文數目統計信息。
@@ -27,7 +27,7 @@ echo '''
 ---
 title: "作者投稿"
 description: "投稿作者文章數統計"
-keywords: ["gcpug taipei"]
+keywords: ["GDGCloud Taipei"]
 ---
 
 以下是投稿的作者及原創文章數目統計信息。
