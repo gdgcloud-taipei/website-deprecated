@@ -1,19 +1,28 @@
 ---
-title: "GCPUG.TW Meetup #7"
-date: 2015-11-06T03:17:00-08:00
+title: 'GCPUG.TW Meetup #7'
+date: 2015-11-06T11:17:00.000Z
 draft: false
-banner: "http://2.bp.blogspot.com/-Fd_Qm1MyAXc/VjyLRcVrY1I/AAAAAAAAs-U/n6dfEYnwgxI/s320/DSC_0225.JPG"
-author: "Simon Su"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCPUG.TW Meetup #7"
-tags: ["GCPUG TW", "meetup"]
-categories: ["meetup"]
-keywords: ["GCPUG TW", "meetup"]
+banner: >-
+  http://2.bp.blogspot.com/-Fd_Qm1MyAXc/VjyLRcVrY1I/AAAAAAAAs-U/n6dfEYnwgxI/s320/DSC_0225.JPG
+author: Simon Su
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: 'GCPUG.TW Meetup #7'
+tags:
+  - GCPUG TW
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GCPUG TW
+  - meetup
+
 ---
 
 [![](http://2.bp.blogspot.com/-TsTibrzoclM/VjyLSHng-bI/AAAAAAAAs-k/LAE3EUAcQiM/s200/DSC_0234.JPG)](http://2.bp.blogspot.com/-TsTibrzoclM/VjyLSHng-bI/AAAAAAAAs-k/LAE3EUAcQiM/s1600/DSC_0234.JPG)[![](http://2.bp.blogspot.com/-Fd_Qm1MyAXc/VjyLRcVrY1I/AAAAAAAAs-U/n6dfEYnwgxI/s320/DSC_0225.JPG)](http://2.bp.blogspot.com/-Fd_Qm1MyAXc/VjyLRcVrY1I/AAAAAAAAs-U/n6dfEYnwgxI/s1600/DSC_0225.JPG)

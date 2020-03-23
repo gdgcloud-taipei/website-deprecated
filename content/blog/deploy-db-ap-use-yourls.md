@@ -1,20 +1,32 @@
 ---
-title: "部署一個具備DB與AP的應用程式 - 以Yourls服務部署為例"
-date: 2017-07-12T06:58:00-07:00
+title: 部署一個具備DB與AP的應用程式 - 以Yourls服務部署為例
+date: 2017-07-12T13:58:00.000Z
 draft: false
-banner: "https://docs.google.com/drawings/d/sy0-w_dh1LCICXMtsRMQE5w/image?w=971&h=385&rev=6&ac=1"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: "industrialclouds.net"
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "接下來以建置mysql資料庫以及一個連線該資料庫的應用部署來觀察GKE在網路層的變化，我們參考kubernetes的mysql服務建立的方式(文章：[https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/](https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/))，其中我們需要先建立mysql所需要用到的disk空間，可以透過下面指令來建置：
-"
-tags: ["mysql", "kubernetes", "database", "GKE"]
-categories: ["Kubernetes"]
-keywords: ["mysql", "kubernetes", "database", "GKE"]
+banner: >-
+  https://docs.google.com/drawings/d/sy0-w_dh1LCICXMtsRMQE5w/image?w=971&h=385&rev=6&ac=1
+author: GDGCloud Taipei
+translator: null
+originallink: industrialclouds.net
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  接下來以建置mysql資料庫以及一個連線該資料庫的應用部署來觀察GKE在網路層的變化，我們參考kubernetes的mysql服務建立的方式(文章：[https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/](https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/))，其中我們需要先建立mysql所需要用到的disk空間，可以透過下面指令來建置
+tags:
+  - mysql
+  - kubernetes
+  - database
+  - GKE
+categories:
+  - Kubernetes
+keywords:
+  - mysql
+  - kubernetes
+  - database
+  - GKE
 ---
 
 接下來以建置mysql資料庫以及一個連線該資料庫的應用部署來觀察GKE在網路層的變化，我們參考kubernetes的mysql服務建立的方式(文章：[https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/](https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/))，其中我們需要先建立mysql所需要用到的disk空間，可以透過下面指令來建置：

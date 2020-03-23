@@ -1,19 +1,31 @@
 ---
-title: "GCE 上實作 Bastion Gateway 的 HA 架構"
-date: 2017-08-18T22:26:00-07:00
+title: GCE 上實作 Bastion Gateway 的 HA 架構
+date: 2017-08-19T05:26:00.000Z
 draft: false
-banner: "http://2.bp.blogspot.com/-CkoOWmzS7V4/WZfMMsJGWFI/AAAAAAAAAuo/ht_10-447fcLNYZnXKP2ZByPdYWg2n0DgCK4BGAYYCw/s320/image-733929.png"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "NAT(或稱Bastion主機)的架構在自建機房中常常可以見到，我們也可以將該架構在雲端環境上建置來使用... 而Google雲端的環境中，可以透過network與routing的方式搭配來建置一個具有HA(High Availability)的NAT環境，讓NAT不是單點提供服務... 下面是架構的簡單描述："
-tags: ["GCE", "HA"]
-categories: ["architecture"]
-keywords: ["GCE", "HA"]
+banner: >-
+  http://2.bp.blogspot.com/-CkoOWmzS7V4/WZfMMsJGWFI/AAAAAAAAAuo/ht_10-447fcLNYZnXKP2ZByPdYWg2n0DgCK4BGAYYCw/s320/image-733929.png
+author: KanKan
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  NAT(或稱Bastion主機)的架構在自建機房中常常可以見到，我們也可以將該架構在雲端環境上建置來使用...
+  而Google雲端的環境中，可以透過network與routing的方式搭配來建置一個具有HA(High
+  Availability)的NAT環境，讓NAT不是單點提供服務... 下面是架構的簡單描述
+tags:
+  - GCE
+  - HA
+categories:
+  - architecture
+keywords:
+  - GCE
+  - HA
+
 ---
 
 ## 概念

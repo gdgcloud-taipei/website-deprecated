@@ -1,19 +1,28 @@
 ---
-title: "GCPUG.TW Meetup #8 - CP100A Training"
-date: 2015-11-14T22:40:00-08:00
+title: 'GCPUG.TW Meetup #8 - CP100A Training'
+date: 2015-11-15T06:40:00.000Z
 draft: false
-banner: "http://3.bp.blogspot.com/-TuCPhmIkI8Y/VkgnXceLMPI/AAAAAAAAtcc/u9EWF5bZeo8/s640/12208475_10204967165566400_3763904118792734819_n.jpg"
-author: "Simon Su"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCPUG.TW Meetup #8 - CP100A Training"
-tags: ["GCPUG TW", "meetup"]
-categories: ["meetup"]
-keywords: ["GCPUG TW", "meetup"]
+banner: >-
+  http://3.bp.blogspot.com/-TuCPhmIkI8Y/VkgnXceLMPI/AAAAAAAAtcc/u9EWF5bZeo8/s640/12208475_10204967165566400_3763904118792734819_n.jpg
+author: Simon Su
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: 'GCPUG.TW Meetup #8 - CP100A Training'
+tags:
+  - GCPUG TW
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GCPUG TW
+  - meetup
+
 ---
 
 [![](http://3.bp.blogspot.com/-TuCPhmIkI8Y/VkgnXceLMPI/AAAAAAAAtcc/u9EWF5bZeo8/s640/12208475_10204967165566400_3763904118792734819_n.jpg)](http://3.bp.blogspot.com/-TuCPhmIkI8Y/VkgnXceLMPI/AAAAAAAAtcc/u9EWF5bZeo8/s1600/12208475_10204967165566400_3763904118792734819_n.jpg)

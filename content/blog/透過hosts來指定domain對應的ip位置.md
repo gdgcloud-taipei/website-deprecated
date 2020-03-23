@@ -1,19 +1,29 @@
 ---
-title: "透過hosts來指定domain對應的ip位置"
-date: 2017-08-14T09:21:00-07:00
+title: 透過hosts來指定domain對應的ip位置
+date: 2017-08-14T16:21:00.000Z
 draft: false
-banner: ""
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "某些時候，我們會需要透過DNS的方式來對應外部服務的domain name位置，而某些應用中，這些domain name可能在不同的環境會對應到不同的地方，此時，我們在傳統作業方式會透過/etc/hosts的編輯方式來讓該主機可以對應到外部服務位置.... 而在K8S中，從1.7之後的版本開始支援hosts的複寫功能..."
-tags: ["kubernetes", "domain"]
-categories: ["kubernetes"]
-keywords: ["kubernetes", "domain"]
+banner: https://storage.googleapis.com/gcs.gcpug.tw/website/gcpug-taipei-default-banner.jpg
+author: IndustrialClouds.net
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  某些時候，我們會需要透過DNS的方式來對應外部服務的domain name位置，而某些應用中，這些domain
+  name可能在不同的環境會對應到不同的地方，此時，我們在傳統作業方式會透過/etc/hosts的編輯方式來讓該主機可以對應到外部服務位置....
+  而在K8S中，從1.7之後的版本開始支援hosts的複寫功能...
+tags:
+  - kubernetes
+  - domain
+categories:
+  - kubernetes
+keywords:
+  - kubernetes
+  - domain
 ---
 
 某些時候，我們會需要透過DNS的方式來對應外部服務的domain name位置，而某些應用中，這些domain name可能在不同的環境會對應到不同的地方，此時，我們在傳統作業方式會透過/etc/hosts的編輯方式來讓該主機可以對應到外部服務位置.... 而在K8S中，從1.7之後的版本開始支援hosts的複寫功能...
@@ -78,4 +88,4 @@ root@hostaliases-pod:/#
 ```
   
 
-From: _IndustrialClouds_
+From: IndustrialClouds.net

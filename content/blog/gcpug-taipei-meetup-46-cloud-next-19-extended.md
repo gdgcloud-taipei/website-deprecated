@@ -1,19 +1,33 @@
 ---
-title: "GDGCloud Taipei Meetup #46 Cloud Next 19 Extended"
+title: 'GDGCloud Taipei Meetup #46 Cloud Next 19 Extended'
 date: 2019-05-28T05:20:10Z
 draft: false
-banner: "https://lh3.googleusercontent.com/CwqGi80yu9LjzWhvsVo-PLJ-HtqHqpkUw0SNYlaTqJCoYFSQJx-M8Iyh4qxHthJT_LgKkA13EN9gbjZuUcMwyJ2HepYL2ELrEyXDqKIBJUgMNndo8YiPTqNZmF9mHgQzb7a2gQ_LRXq09Q_w20_BvqjZncgj52H6_5MTdIcKNldtuSpkCzsnXcZC0THZ8xLEmPOgTlOJs1wGVssMPitFwoPN53FgY_oHaWJWOoNmjsSI8UY2CBWrIKO9ewCVgcbZAMZnzZ9F17zhk2W_7i_EiKSjGzMK1vaIPZYh-B8bmVOvlDwtIPip00H-4pzOGYCskt1BjB-SFGcJBnBUd-wxKnnam9qj-UbG_1tT8wU0kPLXEmSmdYuKO7EBEjgEM3rN4vdsUeRrgnEK9hkm7LadmpJuDRKGUjx5Rnk7P4gSDQcKqt3JNms1lF6WTBJc8eH3aMg-BVfaWJ8d2PmZE0YuPd3uFlIrS411m3dxZZ4sRYS_y-3rLJhK_yVAl5BQYtaZxu4txKTtZma3mnhOKMNGp2BERLLMcVlOxYgn5KIUllhQut6V_MYOsfHzgyi4y9qbK2a6vaeE_SU4uG67D_ELQI0loM_pIzo7kW6egcui3XBlMGm-zYhLslS9mzmDC0jhpsj3F0EV7yhQ3nSsnO5dzRBEkFoXAL3bQ9mx2dutqi36359yOKOCrGUu4tLwNy-gQHqpk3QVinZONKoy72Q2pRtDNQ=w2780-h1564-no"
-author: "Cage Chung"
-authorlink: "https://kaichu.io"
-translator: "N/A"
-translatorlink: ""
-reviewer: ["Cage Chung"]
-reviewerlink: ["https://kaichu.io"]
-originallink: ""
-summary: "今年 [Google Cloud Next ’19 | April 9-11 | San Francisco](https://cloud.withgoogle.com/next/sf/) 在加州舊金山舉辦，詳細的活動內容可以察查官方的活動頁面。GDGCloud Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' 的朋友來跟我們回顧一些 Next 19' 的發表跟經驗分享"
-tags: ["GDGCloud Taipei", "meetup"]
-categories: ["meetup"]
-keywords: ["GDGCloud Taipei", "gcp", "next", "Cloud Run", "TPU", "Edge", "AutoML", "BigQuery", "ML"]
+banner: https://lh3.googleusercontent.com/CwqGi80yu9LjzWhvsVo-PLJ-HtqHqpkUw0SNYlaTqJCoYFSQJx-M8Iyh4qxHthJT_LgKkA13EN9gbjZuUcMwyJ2HepYL2ELrEyXDqKIBJUgMNndo8YiPTqNZmF9mHgQzb7a2gQ_LRXq09Q_w20_BvqjZncgj52H6_5MTdIcKNldtuSpkCzsnXcZC0THZ8xLEmPOgTlOJs1wGVssMPitFwoPN53FgY_oHaWJWOoNmjsSI8UY2CBWrIKO9ewCVgcbZAMZnzZ9F17zhk2W_7i_EiKSjGzMK1vaIPZYh-B8bmVOvlDwtIPip00H-4pzOGYCskt1BjB-SFGcJBnBUd-wxKnnam9qj-UbG_1tT8wU0kPLXEmSmdYuKO7EBEjgEM3rN4vdsUeRrgnEK9hkm7LadmpJuDRKGUjx5Rnk7P4gSDQcKqt3JNms1lF6WTBJc8eH3aMg-BVfaWJ8d2PmZE0YuPd3uFlIrS411m3dxZZ4sRYS_y-3rLJhK_yVAl5BQYtaZxu4txKTtZma3mnhOKMNGp2BERLLMcVlOxYgn5KIUllhQut6V_MYOsfHzgyi4y9qbK2a6vaeE_SU4uG67D_ELQI0loM_pIzo7kW6egcui3XBlMGm-zYhLslS9mzmDC0jhpsj3F0EV7yhQ3nSsnO5dzRBEkFoXAL3bQ9mx2dutqi36359yOKOCrGUu4tLwNy-gQHqpk3QVinZONKoy72Q2pRtDNQ=w2780-h1564-no
+author: Cage Chung
+authorlink: https://kaichu.io
+translator: 
+translatorlink: 
+reviewer:
+  - Cage Chung
+reviewerlink:
+  - https://kaichu.io
+originallink:
+summary: 今年 [Google Cloud Next ’19 | April 9-11 | San Francisco](https://cloud.withgoogle.com/next/sf/) 在加州舊金山舉辦，詳細的活動內容可以察查官方的活動頁面。GDGCloud Taipei 在4月24日邀請了幾位一同去參加 Google Cloud Next 19' 的朋友來跟我們回顧一些 Next 19' 的發表跟經驗分享
+tags: 
+  - GDGCloud Taipei
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GDGCloud Taipei
+  - gcp
+  - next
+  - Cloud Run
+  - TPU
+  - Edge
+  - AutoML
+  - BigQuery
+  - ML
 ---
 
 今年 [Google Cloud Next ’19 | April 9-11 | San Francisco](https://cloud.withgoogle.com/next/sf/) 在加州舊金山舉辦，詳細的活動內容可以察查官方的活動頁面。

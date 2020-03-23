@@ -1,6 +1,6 @@
 ---
-title: "聯絡我們"
-id: "contact"
+title: 聯絡我們
+id: contact
 ---
 
 <center>

@@ -1,19 +1,32 @@
 ---
-title: "GCP的Billing Export與分析(一) - 透過BigQuery查詢與分析GCP帳務資料"
-date: 2017-07-01T02:24:00-07:00
+title: GCP的Billing Export與分析(一) - 透過BigQuery查詢與分析GCP帳務資料
+date: 2017-07-01T09:24:00.000Z
 draft: false
-banner: "https://lh3.googleusercontent.com/BY5yF3cTJkmW9ENWQ7Zk9x936YX96hUuj2XS3jyj-Byofg-00GPcN1rwlSAVKvzSVU7dmRJtQsdMb7fnLfzv3hQitfgHxTHaTopKaBbVchfW4VH7k4DJtQ2ZWBxHbRvleGokiofh"
-author: "宜禎"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCP提供雲端服務平台之相關產品，在計價上，GCP提供Billing檔案的匯出，從GCP web console設定，可匯出至BigQuery、Cloud Storage與PubSub幾個目的儲存體，本次跟大家介紹BigQuery的匯出部分，並藉由BigQuery的查詢呈現您想要的報表。"
-tags: ["BigQuery", "billding", "PubSub"]
-categories: ["BIG DATA"]
-keywords: ["BigQuery", "billding", "PubSub"]
+banner: >-
+  https://lh3.googleusercontent.com/BY5yF3cTJkmW9ENWQ7Zk9x936YX96hUuj2XS3jyj-Byofg-00GPcN1rwlSAVKvzSVU7dmRJtQsdMb7fnLfzv3hQitfgHxTHaTopKaBbVchfW4VH7k4DJtQ2ZWBxHbRvleGokiofh
+author: 宜禎
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  GCP提供雲端服務平台之相關產品，在計價上，GCP提供Billing檔案的匯出，從GCP web console設定，可匯出至BigQuery、Cloud
+  Storage與PubSub幾個目的儲存體，本次跟大家介紹BigQuery的匯出部分，並藉由BigQuery的查詢呈現您想要的報表。
+tags:
+  - BigQuery
+  - billding
+  - PubSub
+categories:
+  - BIG DATA
+keywords:
+  - BigQuery
+  - billding
+  - PubSub
+
 ---
 
 GCP提供雲端服務平台之相關產品，在計價上，GCP提供Billing檔案的匯出，從GCP web console設定，可匯出至BigQuery、Cloud Storage與PubSub幾個目的儲存體，本次跟大家介紹BigQuery的匯出部分，並藉由BigQuery的查詢呈現您想要的報表。

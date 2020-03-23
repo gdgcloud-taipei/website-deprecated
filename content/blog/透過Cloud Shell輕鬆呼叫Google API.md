@@ -1,19 +1,30 @@
 ---
-title: "透過Cloud Shell輕鬆呼叫Google API"
-date: 2017-05-27T06:30:00-07:00
+title: 透過Cloud Shell輕鬆呼叫Google API
+date: 2017-05-27T13:30:00.000Z
 draft: false
-banner: "http://2.bp.blogspot.com/-JGQyYYchuYs/WSl_lh2QmSI/AAAAAAAAAuY/qzAKrCaIh2EheTJVZ0k5iobcPxisG4BoQCK4B/s320/image-762039.png"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "我們知道Google有提供API Explore的工具，讓所有Google的API都可以快速的在API Explore上瀏覽API的呼叫與結果，讓開發上非常方便.... 下面介紹透過Google的Cloud SDK工具來進行API的呼叫作業... 話說，懶得安裝的話，可以直接使用Cloud Shell喲～"
-tags: ["Cloud Shell", "API", "SDK"]
-categories: ["Cloud Shell"]
-keywords: ["Cloud Shell", "API", "SDK"]
+banner: >-
+  http://2.bp.blogspot.com/-JGQyYYchuYs/WSl_lh2QmSI/AAAAAAAAAuY/qzAKrCaIh2EheTJVZ0k5iobcPxisG4BoQCK4B/s320/image-762039.png
+author: GDGCloud Taipei
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: "我們知道Google有提供API Explore的工具，讓所有Google的API都可以快速的在API Explore上瀏覽API的呼叫與結果，讓開發上非常方便....\_下面介紹透過Google的Cloud SDK工具來進行API的呼叫作業... 話說，懶得安裝的話，可以直接使用Cloud Shell喲～"
+tags:
+  - Cloud Shell
+  - API
+  - SDK
+categories:
+  - Cloud Shell
+keywords:
+  - Cloud Shell
+  - API
+  - SDK
+
 ---
 
 我們知道Google有提供API Explore的工具，讓所有Google的API都可以快速的在API Explore上瀏覽API的呼叫與結果，讓開發上非常方便.... 下面介紹透過Google的Cloud SDK工具來進行API的呼叫作業... 話說，懶得安裝的話，可以直接使用Cloud Shell喲～

@@ -1,19 +1,28 @@
 ---
-title: "GCPUG.TW Meetup #3"
-date: 2015-10-14T09:27:00-07:00
+title: 'GCPUG.TW Meetup #3'
+date: 2015-10-14T16:27:00.000Z
 draft: false
-banner: "http://3.bp.blogspot.com/-7KKA9Nu1Vx0/Vh6CPOfhJVI/AAAAAAAAAsY/1WqZcf8_bCM/s640/Event_20150604_-_Google_Drive.png"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCPUG.TW Meetup #3"
-tags: ["GCPUG TW", "meetup"]
-categories: ["meetup"]
-keywords: ["GCPUG TW", "meetup"]
+banner: >-
+  http://3.bp.blogspot.com/-7KKA9Nu1Vx0/Vh6CPOfhJVI/AAAAAAAAAsY/1WqZcf8_bCM/s640/Event_20150604_-_Google_Drive.png
+author: GDGCloud Taipei
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: 'GCPUG.TW Meetup #3'
+tags:
+  - GCPUG TW
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GCPUG TW
+  - meetup
+
 ---
 
 [![](http://3.bp.blogspot.com/-7KKA9Nu1Vx0/Vh6CPOfhJVI/AAAAAAAAAsY/1WqZcf8_bCM/s640/Event_20150604_-_Google_Drive.png)](http://3.bp.blogspot.com/-7KKA9Nu1Vx0/Vh6CPOfhJVI/AAAAAAAAAsY/1WqZcf8_bCM/s1600/Event_20150604_-_Google_Drive.png)

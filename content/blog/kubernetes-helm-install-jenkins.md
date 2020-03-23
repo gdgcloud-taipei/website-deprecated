@@ -1,19 +1,32 @@
 ---
-title: "在Kubernetes上透過helm來安裝jenkins服務"
-date: 2017-09-03T03:06:00-07:00
+title: 在 Kubernetes 上透過 helm 來安裝 jenkins 服務
+date: 2017-09-03T10:06:00.000Z
 draft: false
-banner: "https://lh5.googleusercontent.com/ULSwKU-qYItW-P1Sy4mIe7AWcRUGcu4DaB9eSWdKJi0vlssLHtb89CVizvfNF4DmnyNTGLIzbKzwSZca6dBR-_cQRX8CH3M6PF1a1ad7Y97UsmL5G8ETJix6Db8FoNifUyBYt0pw"
-author: "Simon Su"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "Kubernetes由於透過yaml檔描述了所要安裝的系統架構，因此要把一些應用服務透過yaml檔來封裝成線上直接安裝即可使用的應用將不再是夢想，而helm即是提供一個簡單的平台讓我們可以快速地使用第三方服務所提供的腳本，快速啟用您想要用的服務..."
-tags: ["kubernetes", "helm", "jenkins"]
-categories: ["kubernetes", "COMPUTE"]
-keywords: ["kubernetes", "helm", "jenkins"]
+banner: >-
+  https://lh5.googleusercontent.com/ULSwKU-qYItW-P1Sy4mIe7AWcRUGcu4DaB9eSWdKJi0vlssLHtb89CVizvfNF4DmnyNTGLIzbKzwSZca6dBR-_cQRX8CH3M6PF1a1ad7Y97UsmL5G8ETJix6Db8FoNifUyBYt0pw
+author: Simon Su
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  Kubernetes由於透過yaml檔描述了所要安裝的系統架構，因此要把一些應用服務透過yaml檔來封裝成線上直接安裝即可使用的應用將不再是夢想，而helm即是提供一個簡單的平台讓我們可以快速地使用第三方服務所提供的腳本，快速啟用您想要用的服務...
+tags:
+  - kubernetes
+  - helm
+  - jenkins
+categories:
+  - kubernetes
+  - COMPUTE
+keywords:
+  - kubernetes
+  - helm
+  - jenkins
+
 ---
 
 Kubernetes由於透過yaml檔描述了所要安裝的系統架構，因此要把一些應用服務透過yaml檔來封裝成線上直接安裝即可使用的應用將不再是夢想，而helm即是提供一個簡單的平台讓我們可以快速地使用第三方服務所提供的腳本，快速啟用您想要用的服務...

@@ -1,7 +1,9 @@
 ---
-title: "Meetup"
-description: "GCPUG Taipie Meetup 活動頁面"
-keywords: ["gcppug taipei","meetup"]
+title: Meetup
+description: GCPUG Taipie Meetup 活動頁面
+keywords:
+    - gcppug taipei
+    - meetup
 ---
 
 # GCPPUG TAIPEI Meetup 活動索引

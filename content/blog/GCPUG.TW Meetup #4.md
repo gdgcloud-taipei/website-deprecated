@@ -1,19 +1,28 @@
 ---
-title: "GCPUG.TW Meetup #4"
-date: 2015-10-14T09:31:00-07:00
+title: 'GCPUG.TW Meetup #4'
+date: 2015-10-14T16:31:00.000Z
 draft: false
-banner: "http://4.bp.blogspot.com/-moqWiF7OJWQ/Vh6DXB65lxI/AAAAAAAAAsk/uUk4ooKdceE/s640/9_3_2015_GCPUG_TW_free_talk__kubernetes_by_Ming-der_Wang_on_Prezi.png"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCPUG.TW Meetup #4"
-tags: ["GCPUG TW", "meetup"]
-categories: ["meetup"]
-keywords: ["GCPUG TW", "meetup"]
+banner: >-
+  http://4.bp.blogspot.com/-moqWiF7OJWQ/Vh6DXB65lxI/AAAAAAAAAsk/uUk4ooKdceE/s640/9_3_2015_GCPUG_TW_free_talk__kubernetes_by_Ming-der_Wang_on_Prezi.png
+author: GDGCloud Taipei
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: 'GCPUG.TW Meetup #4'
+tags:
+  - GCPUG TW
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GCPUG TW
+  - meetup
+
 ---
 
 [![](http://4.bp.blogspot.com/-moqWiF7OJWQ/Vh6DXB65lxI/AAAAAAAAAsk/uUk4ooKdceE/s640/9_3_2015_GCPUG_TW_free_talk__kubernetes_by_Ming-der_Wang_on_Prezi.png)](http://4.bp.blogspot.com/-moqWiF7OJWQ/Vh6DXB65lxI/AAAAAAAAAsk/uUk4ooKdceE/s1600/9_3_2015_GCPUG_TW_free_talk__kubernetes_by_Ming-der_Wang_on_Prezi.png)

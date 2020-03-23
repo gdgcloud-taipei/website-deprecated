@@ -1,19 +1,33 @@
 ---
-title: "在kubernetes上使用kube-lego自動更新Let’s Encrypt TLS憑證"
-date: 2017-06-29T21:20:00-07:00
+title: 在kubernetes上使用kube-lego自動更新Let’s Encrypt TLS憑證
+date: 2017-06-30T04:20:00.000Z
 draft: false
-banner: "https://cdn-images-1.medium.com/max/1600/1*yepzWDlIbehNB_IDmKrEtg.gif"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "在k8s上架好了一個服務之後通常下一件事就是把它公開讓大家都可以使用，這時候你有很多選擇，通常會使用ingress來處理。這時候k8s會產生一組public IP，接下來只需要把DNS指到這個IP你的服務就完成部署了。可是部署完成之後的連線是未加密的會有安全上的疑慮，這時候我們就需要一個TLS憑證"
-tags: ["TSL", "kubernetes", "kube-lego", "Encrypt"]
-categories: ["kubernetes"]
-keywords: ["TSL", "kubernetes", "kube-lego", "Encrypt"]
+banner: 'https://cdn-images-1.medium.com/max/1600/1*yepzWDlIbehNB_IDmKrEtg.gif'
+author: GDGCloud Taipei
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  在k8s上架好了一個服務之後通常下一件事就是把它公開讓大家都可以使用，這時候你有很多選擇，通常會使用ingress來處理。這時候k8s會產生一組public
+  IP，接下來只需要把DNS指到這個IP你的服務就完成部署了。可是部署完成之後的連線是未加密的會有安全上的疑慮，這時候我們就需要一個TLS憑證
+tags:
+  - TSL
+  - kubernetes
+  - kube-lego
+  - Encrypt
+categories:
+  - kubernetes
+keywords:
+  - TSL
+  - kubernetes
+  - kube-lego
+  - Encrypt
+
 ---
 
 在k8s上架好了一個服務之後通常下一件事就是把它公開讓大家都可以使用，這時候你有很多選擇，通常會使用ingress來處理。這時候k8s會產生一組public IP，接下來只需要把DNS指到這個IP你的服務就完成部署了。可是部署完成之後的連線是未加密的會有安全上的疑慮，這時候我們就需要一個[TLS憑證](https://zh.wikipedia.org/wiki/%E5%82%B3%E8%BC%B8%E5%B1%A4%E5%AE%89%E5%85%A8%E5%8D%94%E8%AD%B0)。

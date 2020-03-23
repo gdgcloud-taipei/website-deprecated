@@ -1,23 +1,34 @@
 ---
-title: "[how-to] 在 GCP 上設定 HTTPS Load Balancer"
-date: 2015-05-25T23:03:00-07:00
+title: '[how-to] 在 GCP 上設定 HTTPS Load Balancer'
+date: 2015-05-26T06:03:00.000Z
 draft: false
-banner: "http://1.bp.blogspot.com/-ATX4eE44cKI/VWPvXEg1KqI/AAAAAAAAva0/PrlWuotndzs/s640/%25E8%259E%25A2%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2015-05-26%2B%25E4%25B8%258A%25E5%258D%258810.16.44.png"
-author: "edwardc"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCP 推出 HTTP Load Balancer 也已經一陣子了，其中類似 anycast 的特性讓後端的 backend server 可以跨不同 region 之外，也可以根據流量的來源跑到最適合的 backend group 上。  
-  
-但是好用的東西總是缺一味，就是 SSL 的支援。Google 雖然有實作了 HTTPS Load Balancer 但一直都在 alpha stage，僅開放邀請測試，所以也都是一整個看的到吃不到的情況 ..  
-  
-日前終於收到 Google 的邀請，終於來試看看到底怎麼設定 HTTPS Load Balancer .. 其實非常簡單 ....."
-tags: ["Load Balancer"]
-categories: ["Load Balancer", "NETWORKING"]
-keywords: ["Load Balancer"]
+banner: >-
+  http://1.bp.blogspot.com/-ATX4eE44cKI/VWPvXEg1KqI/AAAAAAAAva0/PrlWuotndzs/s640/%25E8%259E%25A2%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2015-05-26%2B%25E4%25B8%258A%25E5%258D%258810.16.44.png
+author: edwardc
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  GCP 推出 HTTP Load Balancer 也已經一陣子了，其中類似 anycast 的特性讓後端的 backend server 可以跨不同
+  region 之外，也可以根據流量的來源跑到最適合的 backend group 上。  
+
+  但是好用的東西總是缺一味，就是 SSL 的支援。Google 雖然有實作了 HTTPS Load Balancer 但一直都在 alpha
+  stage，僅開放邀請測試，所以也都是一整個看的到吃不到的情況 ..  
+
+  日前終於收到 Google 的邀請，終於來試看看到底怎麼設定 HTTPS Load Balancer .. 其實非常簡單 .....
+tags:
+  - Load Balancer
+categories:
+  - Load Balancer
+  - NETWORKING
+keywords:
+  - Load Balancer
+
 ---
 
 GCP 推出 HTTP Load Balancer 也已經一陣子了，其中類似 anycast 的特性讓後端的 backend server 可以跨不同 region 之外，也可以根據流量的來源跑到最適合的 backend group 上。  

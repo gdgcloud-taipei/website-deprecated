@@ -29,38 +29,56 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
-    name = "活動"
-    identifier = "活動_"
+    name = "社群"
+    identifier = "社群"
     weight = 3
 
 [[menu.main]]
-    parent="活動_"
-    name = "活動列表"
-    url  = "/activity/"
+    parent="社群"
+    name = "Meetup"
+    url  = "/tags/meetup"
     weight = 1
 
 [[menu.main]]
-    parent="活動_"
-    name = "Meetup"
-    url  = "/tags/meetup"
+    parent="社群"
+    name = "作者文章投稿"
+    url  = "/authors/"
     weight = 2
 
 [[menu.main]]
-    parent="活動_"
-    name = "文章投稿"
-    url  = "/authors/"
+    parent="社群"
+    name = "譯者文章投稿"
+    url  = "/translators/"
     weight = 3
 
 [[menu.main]]
-    parent="活動_"
+    parent="社群"
+    name = "譯者文章投稿"
+    url  = "/translators/"
+    weight = 3    
+
+[[menu.main]]
+    parent="社群"
+    name = "貢獻指南"
+    url  = "/contributing-specification/"
+    weight = 4
+
+[[menu.main]]
+    parent="社群"
+    name = "活動"
+    url  = "/activity/"
+    weight = 5
+
+[[menu.main]]
+    parent="社群"
     name = "工商服務"
     url  = "/jobs/"
-    weight = 3    
+    weight = 6    
 
 [[menu.main]]
     name = "連絡我們"
     url  = "/contact/"
-    weight = 4
+    weight = 7
 # Top bar social links menu
 
 [params]
@@ -91,8 +109,7 @@ paginate = 10
     # avatar used for thumbnail on sharing
     avatar = "/img/gcpug-avatar.png"
     logosmall = "/img/logo-small.png"
-    address = """<p>請至 Facebook 搜尋 GCPUG.TW 或是掃描下面的 QR code，加入社團</p><p><img src="https://storage.googleapis.com/gcs.gcpug.tw/website/gcpugtaipei_fb_group_128.png"></p>
-      """
+    address = """<p>請至 Facebook 搜尋 GCPUG.TW 或是掃描下面的 QR code，加入社團</p><p><img src="https://storage.googleapis.com/gcs.gcpug.tw/website/gcpugtaipei_fb_group_128.png"></p>"""
 
 [Permalinks]
     #blog = "/blog/:year/:month/:day/:filename/"
@@ -101,8 +118,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = false
-    text = """<p>社群入口➡</p>
-      """
+    text = """<p>社群入口➡</p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

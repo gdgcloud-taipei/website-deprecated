@@ -1,19 +1,34 @@
 ---
-title: "GCP的Billing Export與分析(二) - Report with Datastudio"
-date: 2017-07-01T02:33:00-07:00
+title: GCP的Billing Export與分析(二) - Report with Datastudio
+date: 2017-07-01T09:33:00.000Z
 draft: false
-banner: "https://lh6.googleusercontent.com/OsYXoH_4GzVwiloxSxRceK5gedD164SMc9HWS-xhtdQ-U8xvp1gPRKa2WTtIGrSFWX4iBfHy8RBqfakbn5U6etYGDfQ48hv4I4z0fO57HQuz8f7lrikK7KIzJrMv-FmsAWNNGZCR"
-author: "宜禎"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "Datastudio是Google所提供的線上報表工具，可以透過簡單的定義data source來撈取多種的data格式，甚至data的來源，當然，其上支援Google的大數據資料來源，包含BigQuery, Sheet, Cloud Storage, Cloud SQL等等... 加上前篇所介紹，透過Billing Export來匯出帳務資料，我們可以結合這篇所介紹的功能來製作各種報表..."
-tags: ["BigQuery", "billding", "Datastudio"]
-categories: ["BIG DATA"]
-keywords: ["BigQuery", "billding", "Datastudio"]
+banner: >-
+  https://lh6.googleusercontent.com/OsYXoH_4GzVwiloxSxRceK5gedD164SMc9HWS-xhtdQ-U8xvp1gPRKa2WTtIGrSFWX4iBfHy8RBqfakbn5U6etYGDfQ48hv4I4z0fO57HQuz8f7lrikK7KIzJrMv-FmsAWNNGZCR
+author: 宜禎
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  Datastudio是Google所提供的線上報表工具，可以透過簡單的定義data
+  source來撈取多種的data格式，甚至data的來源，當然，其上支援Google的大數據資料來源，包含BigQuery, Sheet, Cloud
+  Storage, Cloud SQL等等... 加上前篇所介紹，透過Billing
+  Export來匯出帳務資料，我們可以結合這篇所介紹的功能來製作各種報表...
+tags:
+  - BigQuery
+  - billding
+  - Datastudio
+categories:
+  - BIG DATA
+keywords:
+  - BigQuery
+  - billding
+  - Datastudio
+
 ---
 
 Datastudio是Google所提供的線上報表工具，可以透過簡單的定義data source來撈取多種的data格式，甚至data的來源，當然，其上支援Google的大數據資料來源，包含BigQuery, Sheet, Cloud Storage, Cloud SQL等等... 加上前篇所介紹，透過Billing Export來匯出帳務資料，我們可以結合這篇所介紹的功能來製作各種報表...

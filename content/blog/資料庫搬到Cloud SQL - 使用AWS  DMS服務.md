@@ -1,19 +1,31 @@
 ---
-title: "資料庫搬到Cloud SQL - 使用AWS  DMS服務"
-date: 2017-08-07T03:23:00-07:00
+title: 資料庫搬到Cloud SQL - 使用AWS  DMS服務
+date: 2017-08-07T10:23:00.000Z
 draft: false
-banner: "https://lh4.googleusercontent.com/R5MHBADWmfO0rPyKTz83MTZANMYdZVnEfWxf7qBlEAVVhlMyX9aU9pgomTddcnRXLxMFrntmgMVwXx7xLQN3O91M2hmW7ZzPMC-021GV03LPQxBct3CL09So_R2UsO_BpDHjx8uT"
-author: "Yi Jhen Hong"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "Google CloudSQL提供高品質的資料服務，但在使用之前，一般大家會問到該怎麼把資料庫搬到CloudSQL的環境，CloudSQL提供透過 Cloud Storage來做 import/export，如果再資料量不是很大的狀況下，直接針對資料庫做 export 然後存放到 Cloud Storage後，再 import 到 CloudSQL 的速度還滿快的... 但是如果需要做到持續同步資料，則我們會需要一些規劃與工具來持續同步您的資料。"
-tags: ["CloudSQL", "storage"]
-categories: ["STORAGE"]
-keywords: ["CloudSQL", "storage"]
+banner: >-
+  https://lh4.googleusercontent.com/R5MHBADWmfO0rPyKTz83MTZANMYdZVnEfWxf7qBlEAVVhlMyX9aU9pgomTddcnRXLxMFrntmgMVwXx7xLQN3O91M2hmW7ZzPMC-021GV03LPQxBct3CL09So_R2UsO_BpDHjx8uT
+author: Yi Jhen Hong
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  Google CloudSQL提供高品質的資料服務，但在使用之前，一般大家會問到該怎麼把資料庫搬到CloudSQL的環境，CloudSQL提供透過
+  Cloud Storage來做 import/export，如果再資料量不是很大的狀況下，直接針對資料庫做 export 然後存放到 Cloud
+  Storage後，再 import 到 CloudSQL 的速度還滿快的... 但是如果需要做到持續同步資料，則我們會需要一些規劃與工具來持續同步您的資料。
+tags:
+  - CloudSQL
+  - storage
+categories:
+  - STORAGE
+keywords:
+  - CloudSQL
+  - storage
+
 ---
 
 Google CloudSQL提供高品質的資料服務，但在使用之前，一般大家會問到該怎麼把資料庫搬到CloudSQL的環境，CloudSQL提供透過 Cloud Storage來做 import/export，如果再資料量不是很大的狀況下，直接針對資料庫做 export 然後存放到 Cloud Storage後，再 import 到 CloudSQL 的速度還滿快的... 但是如果需要做到持續同步資料，則我們會需要一些規劃與工具來持續同步您的資料。

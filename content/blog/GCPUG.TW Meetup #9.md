@@ -1,19 +1,28 @@
 ---
-title: "GCPUG.TW Meetup #9"
-date: 2015-12-04T01:26:00-08:00
+title: 'GCPUG.TW Meetup #9'
+date: 2015-12-04T09:26:00.000Z
 draft: false
-banner: "http://4.bp.blogspot.com/-2oHefB8cZYs/VmFZkp72dRI/AAAAAAAAt-o/V-Tpe44pqmg/s640/12308254_10205049906474871_5824635935779379808_n.jpg"
-author: "Simon Su"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCPUG.TW Meetup #9"
-tags: ["GCPUG TW", "meetup"]
-categories: ["meetup"]
-keywords: ["GCPUG TW", "meetup"]
+banner: >-
+  http://4.bp.blogspot.com/-2oHefB8cZYs/VmFZkp72dRI/AAAAAAAAt-o/V-Tpe44pqmg/s640/12308254_10205049906474871_5824635935779379808_n.jpg
+author: Simon Su
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: 'GCPUG.TW Meetup #9'
+tags:
+  - GCPUG TW
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GCPUG TW
+  - meetup
+
 ---
 
 [![](http://4.bp.blogspot.com/-2oHefB8cZYs/VmFZkp72dRI/AAAAAAAAt-o/V-Tpe44pqmg/s640/12308254_10205049906474871_5824635935779379808_n.jpg)](http://4.bp.blogspot.com/-2oHefB8cZYs/VmFZkp72dRI/AAAAAAAAt-o/V-Tpe44pqmg/s1600/12308254_10205049906474871_5824635935779379808_n.jpg)

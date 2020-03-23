@@ -1,19 +1,28 @@
 ---
-title: "GCPUG.TW Meetup #2"
-date: 2015-06-05T19:30:00-07:00
+title: 'GCPUG.TW Meetup #2'
+date: 2015-06-06T02:30:00.000Z
 draft: false
-banner: "http://1.bp.blogspot.com/-ANdD2rDERik/VXJsHBBvR2I/AAAAAAAAACA/BoHV0npzN_U/s640/P_20150604_142809.jpg"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "GCPUG.TW Meetup #2"
-tags: ["GCPUG TW", "meetup"]
-categories: ["meetup"]
-keywords: ["GCPUG TW", "meetup"]
+banner: >-
+  http://1.bp.blogspot.com/-ANdD2rDERik/VXJsHBBvR2I/AAAAAAAAACA/BoHV0npzN_U/s640/P_20150604_142809.jpg
+author: GDGCloud Taipei
+translator: ''
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: 'GCPUG.TW Meetup #2'
+tags:
+  - GCPUG TW
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GCPUG TW
+  - meetup
+
 ---
 
 **GCPUG.TW Meetup #2 ([http://gcpugtw.kktix.cc/events/bfa4bc0a-2f9535](http://gcpugtw.kktix.cc/events/bfa4bc0a-2f9535))**

@@ -16,7 +16,6 @@ if [[ ! -f "${orig_json}" ]];then
     exit 0
 fi
 
-
 # echo ${orig_json}
 # echo ${formated_json}
 # echo ${translators}
@@ -24,30 +23,30 @@ fi
 
 cat ${orig_json}|jq .|cat>${formated_json}
 
-echo '''
----
-title: "譯者投稿"
-description: "投稿譯者文章數統計"
-keywords: ["gdgcloud taipei"]
+echo '''---
+title: 譯者文章投稿
+description: 投稿譯者文章數統計
+keywords:
+    - gcppug taipei
 ---
 
 以下是投稿的譯者及譯文數目統計信息。
 '''> ${translators}
 echo "| 譯者 | 文章數 |\n| ---- | ---- |" >> ${translators}
-cat ${formated_json}|grep translator|sort -n|cut -d ":" -f2|grep -v "null"|tr -d '"',","|uniq -c|sort -rn|awk '{first = $1; $1 = ""; print "|" $0,"|", first, "|"; }' >> ${translators}
-echo "\n提交文章線索或譯文請訪問 N/A" >> ${translators}
+cat ${formated_json}|grep translator|sort -n|cut -d ":" -f2|grep -v "null"|tr -d '"',","| awk 'NF'|uniq -c|sort -rn|awk '{first = $1; $1 = ""; print "|" $0,"|", first, "|"; }' >> ${translators}
+echo "\n提交文章線索或譯文請訪問 https://github.com/gdgcloud-taipei/website" >> ${translators}
 
-echo '''
----
-title: "作者投稿"
-description: "投稿作者文章數統計"
-keywords: ["gdgcloud taipei"]
+echo '''---
+title: 作者文章投稿
+description: 投稿作者文章數統計
+keywords:
+    - gcppug taipei
 ---
 
 以下是投稿的作者及原創文章數目統計信息。
 '''> ${authors}
 echo "| 作者 | 文章數 |\n| ---- | ---- |" >> ${authors}
-cat ${formated_json}|grep author|grep -v "authorlink"|sort|cut -d ":" -f2|tr -d ","'"'|uniq -c|sort -nr|awk '{first = $1; $1 = ""; print "|" $0,"|", first, "|"; }' >> ${authors}
-echo "\n投遞原創文章請訪問 N/A" >> ${authors}
+cat ${formated_json}|grep author|grep -v "authorlink"|sort|cut -d ":" -f2|tr -d ","'"'| awk 'NF'|uniq -c|sort -nr|awk '{first = $1; $1 = ""; print "|" $0,"|", first, "|"; }' >> ${authors}
+echo "\n投遞原創文章請訪問 https://github.com/gdgcloud-taipei/website" >> ${authors}
 
 rm ${ORIG_JSON}

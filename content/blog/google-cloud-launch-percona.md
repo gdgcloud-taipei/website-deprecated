@@ -1,19 +1,30 @@
 ---
-title: "Google Cloud Launch 的 Percona 服務介紹"
-date: 2017-08-20T07:53:00-07:00
+title: Google Cloud Launch 的 Percona 服務介紹
+date: 2017-08-20T14:53:00.000Z
 draft: false
-banner: "https://lh5.googleusercontent.com/3Bzd2GwiyjXU0g-e8di6-aCvI1EYwSUlIJwdJYbGWPRt_rCl_5a_HX4Hfm50My4gcNq1SCxIRviiUHwPVU1MgrTFOrXPNIdJ4lrDuA9zRElSXPzwIi8ss5_UUtc9TwUKD2fbklqq"
-author: "Simon Su"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "Database一直是每一項服務需要特別花心思的地方，通常將資料庫服務委託給Google CloudSQL是最簡單不過的，不過，如果希望能夠保有對資料庫的完整操控權，則自建Database是最快的選擇... 而Google Cloud Launcher服務即有DB Cluster的建置，在此以Percona Cluster為例，透過Cloud Launcher簡單的建置Percona MySQL Cluster…"
-tags: ["google cloud luanch"]
-categories: ["luancher"]
-keywords: ["google cloud luanch"]
+banner: >-
+  https://lh5.googleusercontent.com/3Bzd2GwiyjXU0g-e8di6-aCvI1EYwSUlIJwdJYbGWPRt_rCl_5a_HX4Hfm50My4gcNq1SCxIRviiUHwPVU1MgrTFOrXPNIdJ4lrDuA9zRElSXPzwIi8ss5_UUtc9TwUKD2fbklqq
+author: Simon Su
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+  Database一直是每一項服務需要特別花心思的地方，通常將資料庫服務委託給Google
+  CloudSQL是最簡單不過的，不過，如果希望能夠保有對資料庫的完整操控權，則自建Database是最快的選擇... 而Google Cloud
+  Launcher服務即有DB Cluster的建置，在此以Percona Cluster為例，透過Cloud Launcher簡單的建置Percona
+  MySQL Cluster…
+tags:
+  - google cloud luanch
+categories:
+  - luancher
+keywords:
+  - google cloud luanch
+
 ---
 
 Database一直是每一項服務需要特別花心思的地方，通常將資料庫服務委託給Google CloudSQL是最簡單不過的，不過，如果希望能夠保有對資料庫的完整操控權，則自建Database是最快的選擇... 而Google Cloud Launcher服務即有DB Cluster的建置，在此以Percona Cluster為例，透過Cloud Launcher簡單的建置Percona MySQL Cluster…

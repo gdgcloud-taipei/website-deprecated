@@ -1,19 +1,30 @@
 ---
-title: "weddingcnp via GCP"
-date: 2017-07-30T23:05:00-07:00
+title: weddingcnp via GCP
+date: 2017-07-31T06:05:00.000Z
 draft: false
-banner: "https://kaichu.io/img/weddingcnp-via-gpc-0_2.png"
-author: "GDGCloud Taipei"
-translator: ""
-originallink: ""
-translatorlink: ""
-reviewer:  ["GDGCloud Taipei"]
-reviewerlink:  [""]
-authorlink: ""
-summary: "[Cage & Ping wedding](http://weddingcnp.appspot.com/) 是一個我們為結婚喜宴處理朋友出席報名相關事宜特別開發的網站，所有的服務全部建構在 Google Cloud Platform 上"
-tags: ["wedding", "GAE", "Vue"]
-categories: ["COMPUTE"]
-keywords: ["wedding", "GAE", "Vue"]
+banner: https://kaichu.io/img/weddingcnp-via-gpc-0_2.png
+author: Cage Chung
+translator: null
+originallink: null
+translatorlink: null
+reviewer:
+  - GDGCloud Taipei
+reviewerlink:
+  - null
+authorlink: null
+summary: >-
+    [Cage & Ping wedding](http://weddingcnp.appspot.com/) 是一個我們為結婚喜宴處理朋友出席報名相關事宜特別開發的網站，所有的服務全部建構在 Google Cloud Platform 上
+tags:
+  - wedding
+  - GAE
+  - Vue
+categories:
+  - COMPUTE
+keywords:
+  - wedding
+  - GAE
+  - Vue
+
 ---
 
 [Cage & Ping wedding](http://weddingcnp.appspot.com/) 是一個我們為結婚喜宴處理朋友出席報名相關事宜特別開發的網站，所有的服務全部建構在 Google Cloud Platform 上
@@ -80,4 +91,4 @@ Enpoints API 作為接收前端送過來的資料，並接報名相關資料儲�
 From [kaichu.io](https://kaichu.io)
 
 --- 
-作者：Cage
+作者：Cage Chung

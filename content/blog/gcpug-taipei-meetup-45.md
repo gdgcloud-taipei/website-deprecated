@@ -1,19 +1,36 @@
 ---
-title: "GDGCloud Taipei Meetup #45 Recap"
-date: 2019-03-22T01:59:45Z
+title: 'GDGCloud Taipei Meetup #45 Recap'
+date: 2019-03-22T01:59:45.000Z
 draft: false
-banner: "https://lh3.googleusercontent.com/VFDtigVoypq63zGaSVXbh-RbKhv5QGxquWDpJq4HAHGy6jgSqsEdBGIEX9JIrIaHgOdkalbStIMygqgHaGIOmK9CVGXbBQ39FU8sMhDuxO7WsJ5gDZdgoFNxmMeuf2DRNb9Dh9hof7uhSRUpAQde8MRv9rvSmHgHwzKW5WAUmWzyYXOIfwfBb1wV9PySHV65FOSCkU0No6gBbIY5x0JZcqzmlooTUWKAznmPQVzLmoa9q0k7iukQJETtrtbvBn-ROgpvtmSpiepvS7GAzCK7M90XJ5weU8Rej4B01ljvrV0irL1YSZJTFc_yGms8RJf_MyRVLHR_ukhdGV1WJFOdptIftN1pbxtPOZogRVByLlxwRz65sf_CQry05XS6DYlthjCRU-UafKecXpkNebg4sYb61LRkm6D-67mfSIapMQV0IRRhj_iS1NeUpALVmLaC33to91wiocrXP7jhnPfRKh9GKIE3QChVTe_MvsmhScIEkjVZKL1tEpogLqV1-aUOEtcIg75gvpsd6b2wIOe8ET3A6vEcXOyGIpLHCde3KNiPCv0AamBsbRDvXOcYLp76rlX0g77B3EYSzcPGhccYrfIuqFyXtuaA8T_4FoDEgYcSKN1TYFtaj9sk7r9ldXsO3dEXI6YJvJKbWHej7FfnDZkWsmu-H_z3qDbVlp2qCArUzwc5wuOUr3AZD_ZdKDz32wixr4e4lfrgFo9lzkjB2vMfSA=w1000-no-tmp.jpg"
-author: "Cage Chung"
-authorlink: "https://kaichu.io"
-translator: ""
-translatorlink: ""
-reviewer: ["Cage Chung"]
-reviewerlink: ["https://kaichu.io"]
-originallink: ""
-summary: "從 google cloud log 看雲端資料搜集與應用，帶大家從入門到進階，讓你在雲端管理你的資料！ / 從設計架構到實現方式，帶大家進入高效模型訓練。"
-tags: ["GDGCloud Taipei", "gcp", "google cloud logs", "ai", "tensorflow", "keras", "meetup"]
-categories: ["meetup"]
-keywords: ["GDGCloud Taipei", "gcp", "google cloud logs", "ai", "tensorflow", "keras"]
+banner: >-
+  https://lh3.googleusercontent.com/VFDtigVoypq63zGaSVXbh-RbKhv5QGxquWDpJq4HAHGy6jgSqsEdBGIEX9JIrIaHgOdkalbStIMygqgHaGIOmK9CVGXbBQ39FU8sMhDuxO7WsJ5gDZdgoFNxmMeuf2DRNb9Dh9hof7uhSRUpAQde8MRv9rvSmHgHwzKW5WAUmWzyYXOIfwfBb1wV9PySHV65FOSCkU0No6gBbIY5x0JZcqzmlooTUWKAznmPQVzLmoa9q0k7iukQJETtrtbvBn-ROgpvtmSpiepvS7GAzCK7M90XJ5weU8Rej4B01ljvrV0irL1YSZJTFc_yGms8RJf_MyRVLHR_ukhdGV1WJFOdptIftN1pbxtPOZogRVByLlxwRz65sf_CQry05XS6DYlthjCRU-UafKecXpkNebg4sYb61LRkm6D-67mfSIapMQV0IRRhj_iS1NeUpALVmLaC33to91wiocrXP7jhnPfRKh9GKIE3QChVTe_MvsmhScIEkjVZKL1tEpogLqV1-aUOEtcIg75gvpsd6b2wIOe8ET3A6vEcXOyGIpLHCde3KNiPCv0AamBsbRDvXOcYLp76rlX0g77B3EYSzcPGhccYrfIuqFyXtuaA8T_4FoDEgYcSKN1TYFtaj9sk7r9ldXsO3dEXI6YJvJKbWHej7FfnDZkWsmu-H_z3qDbVlp2qCArUzwc5wuOUr3AZD_ZdKDz32wixr4e4lfrgFo9lzkjB2vMfSA=w1000-no-tmp.jpg
+author: Cage Chung
+authorlink: https://kaichu.io
+translator: null
+translatorlink: null
+reviewer:
+  - Cage Chung
+reviewerlink:
+  - https://kaichu.io
+originallink: null
+summary: 從 google cloud log 看雲端資料搜集與應用，帶大家從入門到進階，讓你在雲端管理你的資料！ / 從設計架構到實現方式，帶大家進入高效模型訓練。
+tags:
+  - GDGCloud Taipei
+  - gcp
+  - google cloud logs
+  - ai
+  - tensorflow
+  - keras
+  - meetup
+categories:
+  - meetup
+keywords:
+  - GDGCloud Taipei
+  - gcp
+  - google cloud logs
+  - ai
+  - tensorflow
+  - keras
 ---
 
 時間: 2019年3月20日
