@@ -1,57 +1,65 @@
+options:
+  substitution_option: 'ALLOW_LOOSE'
+
 steps:
   - id: Decrypt the file containing the key
-    name: 'gcr.io/cloud-builders/gcloud'
+    name: gcr.io/cloud-builders/gcloud
     args:
-    - kms
-    - decrypt
-    - --ciphertext-file=gcpugtaipei.github.io.enc
-    - --plaintext-file=/root/.ssh/id_rsa
-    - --location=global
-    - --keyring=gcpugtaipei-website
-    - --key=gcpugtaipei-github-io-key
+      - kms
+      - decrypt
+      - --ciphertext-file=gdgcloudtaipei_ida_rsa.enc
+      - --plaintext-file=/root/.ssh/gdgcloudtaipei_ida_rsa
+      - --location=global
+      - --keyring=taipei_gdgcloud_tw
+      - --key=github-key
     volumes:
-    - name: 'ssh'
-      path: /root/.ssh
+      - name: ssh
+        path: /root/.ssh
 
   - id: Set up git with key and domain
-    name: 'gcr.io/cloud-builders/git'
-    entrypoint: 'bash'
+    name: gcr.io/cloud-builders/git
+    entrypoint: bash
     args:
-    - '-c'
-    - |
-      chmod 600 /root/.ssh/id_rsa
-      ssh-add -K /root/.ssh./id_rsa
-      cat <<EOF >/root/.ssh/config
-      Hostname github.com
-      IdentityFile /root/.ssh/id_rsa
-      EOF
-      mv known_hosts /root/.ssh/known_hosts
+      - -exc
+      - |
+        chmod 600 /root/.ssh/gdgcloudtaipei_ida_rsa
+        cat <<EOF >/root/.ssh/config
+        Hostname github.com
+        IdentityFile /root/.ssh/gdgcloudtaipei_ida_rsa
+        EOF
+        ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
     volumes:
-    - name: 'ssh'
-      path: /root/.ssh
+      - name: ssh
+        path: /root/.ssh
 
   - id: clone gcpugtaipei.github.io
-    name: 'gcr.io/cloud-builders/git'
-    entrypoint: 'bash'
+    name: gcr.io/cloud-builders/git
+    entrypoint: bash
     args:
-    - '-c'
-    - |
-      git clone git@github.com:gcpug-tw/gcpugtaipei.github.io.git public
+      - -exc
+      - |
+        git clone git@github.com:gdgcloud-taipei/gdgcloudtaipei.github.io.git public
     volumes:
-    - name: 'ssh'
-      path: /root/.ssh      
+      - name: ssh
+        path: /root/.ssh
 
   - id: build gcpugtaipei-website
     name: monachus/hugo:v0.53
-    args: ['hugo']
+    args:
+      - hugo
 
   - id: make sure taipei.gdgcloud.tw CNAME
     name: gcr.io/cloud-builders/docker
-    args: ['run', 'busybox', 'printf', 'taipei.gdgcloud.tw > public/CNAME']
+    args: 
+      - run
+      - busybox
+      - printf
+      - taipei.gdgcloud.tw > public/CNAME
 
   - id: update alogolia
     name: gcr.io/gcp-taiwan/gcpugtaipei-webiste-algolia
-    secretEnv: ['ALGOLIA_API_KEY']
+    secretEnv:
+      - ALGOLIA_API_KEY
 
   - id: analyse
     name: gcr.io/gcp-taiwan/gcpugtaipei-webiste-analyse
@@ -63,25 +71,25 @@ steps:
 
   - id: rebuild gcpugtaipei-website for translators & authors
     name: monachus/hugo:v0.53
-    args: ['hugo']
-    
-  - id: publish html to gcpugtaipei.github.io
-    name: 'gcr.io/cloud-builders/git'
-    entrypoint: 'bash'
     args:
-    - '-c'
-    - |
-      cd /workspace/public
-      git config --global user.email "cage.chung@gmail.com"
-      git config --global user.name "Kai-Chu Chung"
-      git add .
-      git commit -m "auto build by $PROJECT_ID cloud build"
-      git push origin master
+      - hugo
+
+  - id: publish html to gcpugtaipei.github.io
+    name: gcr.io/cloud-builders/gcloud
+    entrypoint: bash
+    args:
+      - -exc
+      - |
+        cd /workspace/public
+        git config user.email $(gcloud auth list --filter=status:ACTIVE --format='value(account)')
+        git add .
+        git commit -m "auto build by $PROJECT_ID cloud build"
+        git push origin master
     volumes:
-    - name: 'ssh'
-      path: /root/.ssh
+      - name: ssh
+        path: /root/.ssh
 
 secrets:
-  - kmsKeyName: projects/gcp-taiwan/locations/global/keyRings/gcpugtaipei-website/cryptoKeys/algolia
+  - kmsKeyName: projects/gcp-taiwan/locations/global/keyRings/taipei_gdgcloud_tw/cryptoKeys/algolia
     secretEnv:
-      ALGOLIA_API_KEY: CiQA/CYDdLHaT/FIQILfDcWZKOEM0PVQKwGvWjGJXLfl2ACuV28SSQCSMDfK3kIi2cykcXd0d1crP0Bu5V+PVmRG2tGWkdwF0Xgks8DLzS+dLx7/EHYSG2m4vZxjGDUh6QRtYojiB/Huu0a4nV8v+uE=
+      ALGOLIA_API_KEY: CiQAPufRZmriTKXap0BRc9kdAtlT4/qKid8rWZ9aXPo/Yx63gCgSSQAl0LlBDpy0a5yzj+zaO3ICts+VFZzjlzUYa9sxFb68RfYZkkOQJRGcs1EmSJWsBI3OfdYruKI6FzpPUcNq3FI48gY/zBBgFQ0=
