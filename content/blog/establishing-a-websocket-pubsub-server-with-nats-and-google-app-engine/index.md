@@ -2,7 +2,7 @@
 title: Establishing a Websocket PUBSUB server with NATS and Google App Engine
 date: 2020-05-15T00:29:02+08:00
 banner: >-
-  ./blog/establishing-a-websocket-pubsub-server-with-nats-and-google-app-engine/images/gae-custom-ws-0.png
+  https://taipei.gdgcloud.tw/blog/establishing-a-websocket-pubsub-server-with-nats-and-google-app-engine/images/gae-custom-ws-0.png
 author: Cage Chung
 authorlink: https://kaichu.io
 translator: null
