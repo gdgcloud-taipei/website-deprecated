@@ -2,7 +2,7 @@
 title: 透過hosts來指定domain對應的ip位置
 date: 2017-08-14T16:21:00.000Z
 draft: false
-banner: https://storage.googleapis.com/gcs.gcpug.tw/website/gcpug-taipei-default-banner.jpg
+banner: https://taipei.gdgcloud.tw/img/gdgcloudtaipei-avatar.png
 author: IndustrialClouds.net
 translator: null
 originallink: null

@@ -107,7 +107,7 @@ paginate = 10
     date_format = "2006年1月2日"
     logo = "/img/logo.png"
     # avatar used for thumbnail on sharing
-    avatar = "/img/gcpug-avatar.png"
+    avatar = "/img/gdgcloudtaipei-avatar.png"
     logosmall = "/img/logo-small.png"
     address = """<p>請至 Facebook 搜尋 GCPUG.TW 或是掃描下面的 QR code，加入社團</p><p><img src="https://storage.googleapis.com/gcs.gcpug.tw/website/gcpugtaipei_fb_group_128.png"></p>"""
 
