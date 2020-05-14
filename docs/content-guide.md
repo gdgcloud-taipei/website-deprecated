@@ -12,7 +12,8 @@ __archetypes/post-bundle/index.md__
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 draft: true
-banner: "https://storage.googleapis.com/gcs.gcpug.tw/website/gcpug-taipei-default-banner.jpg"
+banner: >-
+  https://taipei.gdgcloud.tw/img/gdgcloudtaipei-avatar.png
 author: null
 authorlink: null
 translator: null
@@ -35,9 +36,7 @@ keywords:
 ---
 
 #### 圖片引用
-> 請把圖檔複制到 `./images`, banner 的部份請替換掉想取代的圖片，沒有 banner 請替換 default 的圖片
-
-![](./images/gcpug-taipei-default-banner.jpg)
+> 請把圖檔複制到 `./images`, banner 的部份請替換掉想取代的圖片
 ```
 
 其中包含部落格文章的一些元数据。
@@ -45,7 +44,7 @@ keywords:
 - title：文章標題，中文和英文間**不加空格**，中文的破折號用`—`，即減少一橫
 - date：部落格文章創建時間，`hugo new`命令自動生成，預設最新生成的文章將優先顯示
 - draft：是否是草稿，設置為 `false` 才會發佈出去，預設是 `true`
-- banner：預設為 gcpug taipie 的 logo，可以引用自己的圖檔作 banner (banner 建議 1000*750 像素)，
+- banner：預設為 gcpug taipie 的 logo，可以引用自己的圖檔作 banner (banner 建議 1000*750 像素)，
 - author：文章作者
 - authorlink：原文鏈接或者作者的個人鏈接地址
 - translator：譯者名字，若為翻譯的文章可以不填
