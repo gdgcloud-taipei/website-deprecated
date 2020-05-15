@@ -26,4 +26,5 @@ keywords:
 ---
 
 #### 圖片引用
-> 請把圖檔複制到 `./images`, banner 的部份請替換掉想取代的圖片
+> 請把圖檔複制到 `./images`, banner 的部份請替換掉想取代的圖片.
+> ex: https://taipei.gdgcloud.tw/blog/establishing-a-websocket-pubsub-server-with-nats-and-google-app-engine/images/gae-custom-ws-0.png

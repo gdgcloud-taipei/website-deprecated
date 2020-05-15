@@ -1,6 +1,6 @@
 # 內容管理指南
 
-本站除主頁外的所有內容都是用 `Markdown` 格式文檔編寫，然後由 `Hugo` 渲染出 `HTML` 頁面。所有的 `Markdown` 內容都保存在 `Content` 目錄下。
+本站除主頁外的所有內容都是用 `Markdown` 格式文檔編寫，然後由 `Hugo:v53` 渲染出 `HTML` 頁面。所有的 `Markdown` 內容都保存在 `Content` 目錄下。
 
 ## 預設模板
 
@@ -42,7 +42,7 @@ keywords:
 其中包含部落格文章的一些元数据。
 
 - title：文章標題，中文和英文間**不加空格**，中文的破折號用`—`，即減少一橫
-- date：部落格文章創建時間，`hugo new`命令自動生成，預設最新生成的文章將優先顯示
+- date：部落格文章創建時間，`make new`命令自動生成，預設最新生成的文章將優先顯示
 - draft：是否是草稿，設置為 `false` 才會發佈出去，預設是 `true`
 - banner：預設為 gcpug taipie 的 logo，可以引用自己的圖檔作 banner (banner 建議 1000*750 像素)，
 - author：文章作者
@@ -60,14 +60,26 @@ keywords:
 如果需要建立新的文章，只需要執行下面的命令：
 
 ```shell
-# 執行 gcpugtaipei docker 
-$ make run
-docker run -d --name gcpugtaipei --rm -ti -v /Users/cage/Documents/gcpug.tw/gcpugtaipei-website:/src -p 1313:1313 klakegg/hugo:0.53 server -D
-fccc05f067016d5f16d8d19d6030a69132bc84d1c1078f5900ec7e7b0f86be92
+$ make
+Usage:
 
-# 建立新的 blog
-# $ make new gcpugtaipei new post
-# docker exec gcpugtaipei hugo new --kind post-bundle content/blog/# gcpugtaipei-post
-# /src/content/blog/gcpugtaipei-post created
-$ make new <replace your post title ex:"gcpugtaipei new post">
+  new           Create a new post (ex. make new GDGCloud Taipei meetup 47)
+  server        A high performance webserver
+  cleandocker   Clean hugo-server docker container
+
+# 建立新的文章
+# ex: make new gcpugtaipei new post
+$ make new <replace your post title>
+
+# 在本地端啟動 hugo server 進行測試
+$ make server
+docker run --rm --name hugo-server -v /Users/cagechung/Documents/gdgcloud-taipei/website:/src -p 1313:1313 klakegg/hugo:0.53 server -D -w --bind=0.0.0.0
+Building sites …
+...
+
+# 清除本地端 hugo server
+$ make cleandocker
+# Remove retailbase containers
+docker ps -f name=hugo-server -aq | xargs docker rm -f
+...
 ```
